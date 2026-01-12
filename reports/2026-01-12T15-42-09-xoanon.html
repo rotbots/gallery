@@ -1,0 +1,188 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Pipeline Report: Xoanon</title><style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'JetBrains Mono',monospace;background:#000;color:#fff;padding:20px;line-height:1.6}
+h1{color:#fff;text-align:center;margin-bottom:5px}
+h2{color:#fff;border-bottom:1px solid #333;padding-bottom:10px;margin:20px 0 15px;font-size:1em}
+h3,h4{color:#fff}
+.section{background:#0a0a0a;border:1px solid #222;padding:20px;margin-bottom:20px}
+.section:hover{border-color:#444}
+.meta{display:flex;gap:15px;flex-wrap:wrap;margin-bottom:15px}
+.meta-item{background:#111;padding:8px 12px;border:1px solid #333}
+.meta-item .label{color:#888;font-size:0.75em;text-transform:uppercase}
+.meta-item .value{color:#fff;font-weight:bold}
+.data-block{background:#0a0a0a;border:1px solid #222;padding:15px;margin:10px 0}
+.input-block{border-left:4px solid #ffaa00}
+.output-block{border-left:4px solid #4CAF50}
+.config-block{border-left:4px solid #888}
+pre{background:#0a0a0a;color:#ccc;padding:10px;white-space:pre-wrap;word-wrap:break-word;max-height:400px;overflow-y:auto;font-size:0.85em;border:1px solid #222}
+.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}
+video{width:100%;border:1px solid #333}
+a{color:#fff}
+.breakdown-container{display:flex;gap:30px;flex-wrap:wrap}
+.breakdown-box{flex:1;min-width:280px;background:#111;border:1px solid #222;padding:15px}
+.breakdown-box h3{margin-bottom:15px;font-size:0.95em;border-bottom:1px solid #333;padding-bottom:8px}
+.breakdown-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #222;font-size:0.9em}
+.breakdown-row:last-child{font-weight:bold;border:none;color:#fff}
+.timestamp{text-align:center;color:#666;margin-top:30px;font-size:0.8em}
+.subtitle{color:#888;font-size:0.9em;text-align:center;margin-bottom:20px}
+</style></head><body><div style="max-width:1400px;margin:0 auto"><h1>Pipeline Report v5.2</h1><p class="subtitle">LTX-2 19B Distilled + Groq Llama-3.1 + fal.ai FFmpeg + Jina Reader | 2026-01-12T15:42:09.908Z</p><div class="section"><h2>Output Videos</h2><div style="text-align:center;padding:20px"><h3>Merged Output (32s)</h3><video controls src="https://v3b.fal.media/files/b/0a8a1bd4/rz-BcKsG7X7Yf5axcudMu_merged_video.mp4" style="max-height:400px"></video><br><a href="https://v3b.fal.media/files/b/0a8a1bd4/rz-BcKsG7X7Yf5axcudMu_merged_video.mp4" target="_blank" style="color:#fff">Download merged video</a></div><h3>Individual Clips</h3><div class="video-grid"><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 1</h4><video controls src="https://v3b.fal.media/files/b/0a8a1b7e/WVw7-i1zi42yCRkAtDuKe_ot3K07it.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a1b7e/WVw7-i1zi42yCRkAtDuKe_ot3K07it.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Handheld documentary camera pans over a dusty, overgrown landscape (8s), with a gentle wind sound, ethereal music (soft piano and subtle strings), and a whisper of 'Samos'. Focus on an ancient Greek temple with wooden doors slowly creaking open (2s), as the music and wind grow slightly louder.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 2</h4><video controls src="https://v3b.fal.media/files/b/0a8a1b88/H5_FGA9xI7eex0rhrzjtZ_26iC0Bbf.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a1b88/H5_FGA9xI7eex0rhrzjtZ_26iC0Bbf.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Camera pushes through the temple doors, and warm sunlight spills in (4s), illuminating the xoanon (a simple wooden beam) in the center. The camera zooms in on its weathered surface (2s), accompanied by a gentle, sweeping pan of a string instrument and the sound of gentle footsteps echoing through the temple.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 3</h4><video controls src="https://v3b.fal.media/files/b/0a8a1bc4/-SKG_uyL0PyIV07SD1K9J_0SwrPrME.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a1bc4/-SKG_uyL0PyIV07SD1K9J_0SwrPrME.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Camera zooms in closer to the xoanon (4s), and its surface begins to take on a more human-like form. The legend of the goddess Hera's divine image becomes clear (2s), as the music builds to a softer, more resonant tone and the sound of pages turning in an ancient book fill the air.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 4</h4><video controls src="https://v3b.fal.media/files/b/0a8a1bcf/QbXEDiwOFUayrZjnqHlhX_pAcyO2WU.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a1bcf/QbXEDiwOFUayrZjnqHlhX_pAcyO2WU.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Camera pulls back to reveal the xoanon in its complete form, illuminated by warm sunlight (4s), with ambient wind sounds still present. A soft, ancient chant (in Greek) is spoken by a whispering voice, fading into silence as the music gently dissolves, leaving a sense of reverence and connection to ancient Greece.</pre></div></div></div><div class="section"><h2>Step 0: Source</h2><div class="meta"><div class="meta-item"><div class="label">Type</div><div class="value">Wikipedia</div></div><div class="meta-item"><div class="label">Title</div><div class="value">Xoanon</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Storyboard</div><div class="value">Documentary (factual, informative, calm)</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Handheld documentary (natural, slightly shaky)</div></div></div><div class="data-block"><h4>Raw Content:</h4><pre>A xoanon was a wooden cult image from Archaic Greece. Classical Greeks associated such cult objects, whether aniconic or effigy, with the legendary Daedalus. Many such cult images were preserved into historical times, though none are known to have survived to the modern day, except as copies in stone or marble. In the 2nd century CE, Pausanias described numerous xoana in his Description of Greece, notably the image of Hera in her temple at Samos. "The statue of the Samian Hera, as Aethilos [sic] says, was a wooden beam at first, but afterwards, when Prokles was ruler, it was humanized in form". In Pausanias' travels he never mentions seeing a xoanon of a "mortal man".</pre></div></div><div class="section"><h2>Step 1: Summarization</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.36s</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Summarize the following content in 5-6 sentences. Focus on the most visual and dramatic aspects that would translate well to video:
+
+A xoanon was a wooden cult image from Archaic Greece. Classical Greeks associated such cult objects, whether aniconic or effigy, with the legendary Daedalus. Many such cult images were preserved into historical times, though none are known to have survived to the modern day, except as copies in stone or marble. In the 2nd century CE, Pausanias described numerous xoana in his Description of Greece, notably the image of Hera in her temple at Samos. "The statue of the Samian Hera, as Aethilos [sic] says, was a wooden beam at first, but afterwards, when Prokles was ruler, it was humanized in form". In Pausanias' travels he never mentions seeing a xoanon of a "mortal man"....</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">LLM Output:</h4><pre>Imagine a ancient Greek temple, its wooden doors creaking as they swing open, revealing a mysterious and powerful cult image within. The xoanon, a wooden cult image, stands tall, shrouded in mystery and legend. In ancient Samos, a temple dedicated to Hera housed a xoanon, described by Pausanias as a simple wooden beam that was later transformed into a more human-like form. The image of the goddess was said to be imbued with a deep spiritual significance, connecting the people of Samos to the divine. As the light of the sun casts a warm glow on the ancient temple, the xoanon seems to hold a secret, its wooden form hiding a rich history and cultural significance. In a world where ancient myths and legends come alive, the xoanon stands as a testament to the power of faith and the enduring spirit of ancient Greece.</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-75dc71c0-e6fc-411f-9514-2e750c505ed8",
+  "object": "chat.completion",
+  "created": 1768231638,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Imagine a ancient Greek temple, its wooden doors creaking as they swing open, revealing a mysterious and powerful cult image within. The xoanon, a wooden cult image, stands tall, shrouded in mystery and legend. In ancient Samos, a temple dedicated to Hera housed a xoanon, described by Pausanias as a simple wooden beam that was later transformed into a more human-like form. The image of the goddess was said to be imbued with a deep spiritual significance, connecting the people of Samos to the divine. As the light of the sun casts a warm glow on the ancient temple, the xoanon seems to hold a secret, its wooden form hiding a rich history and cultural significance. In a world where ancient myths and legends come alive, the xoanon stands as a testament to the power of faith and the enduring spirit of ancient Greece."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.089384321,
+    "prompt_tokens": 228,
+    "prompt_time": 0.016364814,
+    "completion_tokens": 177,
+    "completion_time": 0.359405342,
+    "total_tokens": 405,
+    "total_time": 0.375770156
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kesd3577fk5bapn3maa3rw27",
+    "seed": 2054841940
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 2: Storyboard</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Style</div><div class="value">Documentary (factual, informative, calm)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">1.25s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Style Instructions:</h4><pre>Create a documentary-style storyboard that is factual, informative, and calm. Focus on clear visuals that educate and inform. Think BBC or National Geographic.</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Based on this summary, create a 4-scene storyboard for FOUR 8-second video clips (32 seconds total). Each scene should be visually striking and build on the previous.
+
+SUMMARY: Imagine a ancient Greek temple, its wooden doors creaking as they swing open, revealing a mysterious and powerful cult image within. The xoanon, a wooden cult image, stands tall, shrouded in mystery and legend. In ancient Samos, a temple dedicated to Hera housed a xoanon, described by Pausanias as a simple wooden beam that was later transformed into a more human-like form. The image of the goddess was said to be imbued with a deep spiritual significance, connecting the people of Samos to the divine. As the light of the sun casts a warm glow on the ancient temple, the xoanon seems to hold a secret, its wooden form hiding a rich history and cultural significance. In a world where ancient myths and legends come alive, the xoanon stands as a testament to the power of faith and the enduring spirit of ancient Greece.
+
+STYLE INSTRUCTIONS: Create a documentary-style storyboard that is factual, informative, and calm. Focus on clear visuals that educate and inform. Think BBC or National Geographic.
+
+Respond in this exact JSON format:
+{
+  "scene1": { "description": "...", "mood": "...", "audioDescription": "..." },
+  "scene2": { ... },
+  "scene3": { ... },
+  "scene4": { ... }
+}</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "scene1": {
+    "description": "The camera pans over a dusty, overgrown landscape until it comes into focus on an ancient Greek temple, worn but majestic, with wooden doors slowly creaking open.",
+    "mood": "intrigued",
+    "audioDescription": "Soft, ethereal music with a gentle wind sound, accompanied by a soft whisper of 'Samos'"
+  },
+  "scene2": {
+    "description": "As the camera pushes through the doors, a warm sunlight spills in, illuminating the xoanon, a simple wooden beam, standing tall in the center of the temple, and slowly, the camera zooms in on its weathered surface.",
+    "mood": "contemplative",
+    "audioDescription": "The soft music transitions to a gentle, sweeping pan of a string instrument, accompanied by the sound of gentle footsteps echoing through the temple"
+  },
+  "scene3": {
+    "description": "The camera zooms in closer to the xoanon, and as we examine it more closely, its surface begins to take on a more human-like form, and the legend of the goddess Hera's divine image becomes clear.",
+    "mood": "awe-inspired",
+    "audioDescription": "The music builds to a softer, more resonant tone, accompanied by the sound of pages turning in an ancient book, and the whisper of an ancient text being read"
+  },
+  "scene4": {
+    "description": "As the camera pulls back, we see the xoanon in its complete form, illuminated by the warm sunlight, and we're left with a sense of reverence and connection to the enduring spirit of ancient Greece.",
+    "mood": "reflective",
+    "audioDescription": "The music fades to silence, but the sound of gentle wind persists, accompanied by the faint sound of a soft, ancient chant"
+  }
+}</pre></div><h4>Parsed Scenes:</h4><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 1:</strong> The camera pans over a dusty, overgrown landscape until it comes into focus on an ancient Greek temple, worn but majestic, with wooden doors slowly creaking open.<br><em style="color:#888">Mood: intrigued | Audio: Soft, ethereal music with a gentle wind sound, accompanied by a soft whisper of 'Samos'</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 2:</strong> As the camera pushes through the doors, a warm sunlight spills in, illuminating the xoanon, a simple wooden beam, standing tall in the center of the temple, and slowly, the camera zooms in on its weathered surface.<br><em style="color:#888">Mood: contemplative | Audio: The soft music transitions to a gentle, sweeping pan of a string instrument, accompanied by the sound of gentle footsteps echoing through the temple</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 3:</strong> The camera zooms in closer to the xoanon, and as we examine it more closely, its surface begins to take on a more human-like form, and the legend of the goddess Hera's divine image becomes clear.<br><em style="color:#888">Mood: awe-inspired | Audio: The music builds to a softer, more resonant tone, accompanied by the sound of pages turning in an ancient book, and the whisper of an ancient text being read</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 4:</strong> As the camera pulls back, we see the xoanon in its complete form, illuminated by the warm sunlight, and we're left with a sense of reverence and connection to the enduring spirit of ancient Greece.<br><em style="color:#888">Mood: reflective | Audio: The music fades to silence, but the sound of gentle wind persists, accompanied by the faint sound of a soft, ancient chant</em></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-d42f7313-286b-442a-9569-e49535b888f1",
+  "object": "chat.completion",
+  "created": 1768231640,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"scene1\": {\n    \"description\": \"The camera pans over a dusty, overgrown landscape until it comes into focus on an ancient Greek temple, worn but majestic, with wooden doors slowly creaking open.\",\n    \"mood\": \"intrigued\",\n    \"audioDescription\": \"Soft, ethereal music with a gentle wind sound, accompanied by a soft whisper of 'Samos'\"\n  },\n  \"scene2\": {\n    \"description\": \"As the camera pushes through the doors, a warm sunlight spills in, illuminating the xoanon, a simple wooden beam, standing tall in the center of the temple, and slowly, the camera zooms in on its weathered surface.\",\n    \"mood\": \"contemplative\",\n    \"audioDescription\": \"The soft music transitions to a gentle, sweeping pan of a string instrument, accompanied by the sound of gentle footsteps echoing through the temple\"\n  },\n  \"scene3\": {\n    \"description\": \"The camera zooms in closer to the xoanon, and as we examine it more closely, its surface begins to take on a more human-like form, and the legend of the goddess Hera's divine image becomes clear.\",\n    \"mood\": \"awe-inspired\",\n    \"audioDescription\": \"The music builds to a softer, more resonant tone, accompanied by the sound of pages turning in an ancient book, and the whisper of an ancient text being read\"\n  },\n  \"scene4\": {\n    \"description\": \"As the camera pulls back, we see the xoanon in its complete form, illuminated by the warm sunlight, and we're left with a sense of reverence and connection to the enduring spirit of ancient Greece.\",\n    \"mood\": \"reflective\",\n    \"audioDescription\": \"The music fades to silence, but the sound of gentle wind persists, accompanied by the faint sound of a soft, ancient chant\"\n  }\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.101855093,
+    "prompt_tokens": 500,
+    "prompt_time": 0.179276219,
+    "completion_tokens": 392,
+    "completion_time": 1.246171671,
+    "total_tokens": 892,
+    "total_time": 1.42544789
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kesd35r9fymvcwebnr8ekd53",
+    "seed": 1161642288
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 3: Video Prompts</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Handheld documentary (natural, slightly shaky)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.57s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Camera Instructions:</h4><pre>handheld documentary style, natural slight movement, authentic feel, observational cinema</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Create 4 text-to-video prompts for LTX-2 AI video model with NATIVE AUDIO.
+
+CAMERA STYLE TO USE: handheld documentary style, natural slight movement, authentic feel, observational cinema
+
+Scene 1 (Opening Hook): The camera pans over a dusty, overgrown landscape until it comes into focus on an ancient Greek temple, worn but majestic, with wooden doors slowly creaking open. - intrigued mood. Audio: Soft, ethereal music with a gentle wind sound, accompanied by a soft whisper of 'Samos'
+
+Scene 2 (Build-up): As the camera pushes through the doors, a warm sunlight spills in, illuminating the xoanon, a simple wooden beam, standing tall in the center of the temple, and slowly, the camera zooms in on its weathered surface. - contemplative mood. Audio: The soft music transitions to a gentle, sweeping pan of a string instrument, accompanied by the sound of gentle footsteps echoing through the temple
+
+Scene 3 (Climax): The camera zooms in closer to the xoanon, and as we examine it more closely, its surface begins to take on a more human-like form, and the legend of the goddess Hera's divine image becomes clear. - awe-inspired mood. Audio: The music builds to a softer, more resonant tone, accompanied by the sound of pages turning in an ancient book, and the whisper of an ancient text being read
+
+Scene 4 (Conclusion): As the camera pulls back, we see the xoanon in its complete form, illuminated by the warm sunlight, and we're left with a sense of reverence and connection to the enduring spirit of ancient Greece. - reflective mood. Audio: The music fades to silence, but the sound of gentle wind persists, accompanied by the faint sound of a soft, ancient chant
+
+Respond in JSON format with prompt1, prompt2, prompt3, prompt4.</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "prompt1": "Handheld documentary camera pans over a dusty, overgrown landscape (8s), with a gentle wind sound, ethereal music (soft piano and subtle strings), and a whisper of 'Samos'. Focus on an ancient Greek temple with wooden doors slowly creaking open (2s), as the music and wind grow slightly louder.",
+  "prompt2": "Camera pushes through the temple doors, and warm sunlight spills in (4s), illuminating the xoanon (a simple wooden beam) in the center. The camera zooms in on its weathered surface (2s), accompanied by a gentle, sweeping pan of a string instrument and the sound of gentle footsteps echoing through the temple.",
+  "prompt3": "Camera zooms in closer to the xoanon (4s), and its surface begins to take on a more human-like form. The legend of the goddess Hera's divine image becomes clear (2s), as the music builds to a softer, more resonant tone and the sound of pages turning in an ancient book fill the air.",
+  "prompt4": "Camera pulls back to reveal the xoanon in its complete form, illuminated by warm sunlight (4s), with ambient wind sounds still present. A soft, ancient chant (in Greek) is spoken by a whispering voice, fading into silence as the music gently dissolves, leaving a sense of reverence and connection to ancient Greece."
+}</pre></div><h4>Parsed Prompts:</h4><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 1:</strong><pre>Handheld documentary camera pans over a dusty, overgrown landscape (8s), with a gentle wind sound, ethereal music (soft piano and subtle strings), and a whisper of 'Samos'. Focus on an ancient Greek temple with wooden doors slowly creaking open (2s), as the music and wind grow slightly louder.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 2:</strong><pre>Camera pushes through the temple doors, and warm sunlight spills in (4s), illuminating the xoanon (a simple wooden beam) in the center. The camera zooms in on its weathered surface (2s), accompanied by a gentle, sweeping pan of a string instrument and the sound of gentle footsteps echoing through the temple.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 3:</strong><pre>Camera zooms in closer to the xoanon (4s), and its surface begins to take on a more human-like form. The legend of the goddess Hera's divine image becomes clear (2s), as the music builds to a softer, more resonant tone and the sound of pages turning in an ancient book fill the air.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 4:</strong><pre>Camera pulls back to reveal the xoanon in its complete form, illuminated by warm sunlight (4s), with ambient wind sounds still present. A soft, ancient chant (in Greek) is spoken by a whispering voice, fading into silence as the music gently dissolves, leaving a sense of reverence and connection to ancient Greece.</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-6afba59b-855a-4589-b390-083709c61699",
+  "object": "chat.completion",
+  "created": 1768231641,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"prompt1\": \"Handheld documentary camera pans over a dusty, overgrown landscape (8s), with a gentle wind sound, ethereal music (soft piano and subtle strings), and a whisper of 'Samos'. Focus on an ancient Greek temple with wooden doors slowly creaking open (2s), as the music and wind grow slightly louder.\",\n  \"prompt2\": \"Camera pushes through the temple doors, and warm sunlight spills in (4s), illuminating the xoanon (a simple wooden beam) in the center. The camera zooms in on its weathered surface (2s), accompanied by a gentle, sweeping pan of a string instrument and the sound of gentle footsteps echoing through the temple.\",\n  \"prompt3\": \"Camera zooms in closer to the xoanon (4s), and its surface begins to take on a more human-like form. The legend of the goddess Hera's divine image becomes clear (2s), as the music builds to a softer, more resonant tone and the sound of pages turning in an ancient book fill the air.\",\n  \"prompt4\": \"Camera pulls back to reveal the xoanon in its complete form, illuminated by warm sunlight (4s), with ambient wind sounds still present. A soft, ancient chant (in Greek) is spoken by a whispering voice, fading into silence as the music gently dissolves, leaving a sense of reverence and connection to ancient Greece.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.10521555,
+    "prompt_tokens": 589,
+    "prompt_time": 0.051743752,
+    "completion_tokens": 294,
+    "completion_time": 0.572441583,
+    "total_tokens": 883,
+    "total_time": 0.624185335
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kesd37cnfze84rax4qy9y1mc",
+    "seed": 1625075683
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 4: Video Generation</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.40</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~180s (4 clips)</div></div></div><div class="data-block config-block"><h4 style="color:#888">API Config:</h4><pre>{
+  "resolution": "480x848 (9:16)",
+  "num_frames": 201,
+  "fps": 25,
+  "duration": "8 seconds",
+  "generateAudio": true,
+  "negativePrompt": "low resolution, error, worst quality, low quality, defects, blurry, distorted"
+}</pre></div></div><div class="section"><h2>Step 5: Merge</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai FFmpeg API</div></div><div class="meta-item"><div class="label">Duration</div><div class="value">32 seconds</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.02</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~8s</div></div><div class="meta-item"><div class="label">Status</div><div class="value">Success</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input URLs:</h4><pre>Clip 1: https://v3b.fal.media/files/b/0a8a1b7e/WVw7-i1zi42yCRkAtDuKe_ot3K07it.mp4
+Clip 2: https://v3b.fal.media/files/b/0a8a1b88/H5_FGA9xI7eex0rhrzjtZ_26iC0Bbf.mp4
+Clip 3: https://v3b.fal.media/files/b/0a8a1bc4/-SKG_uyL0PyIV07SD1K9J_0SwrPrME.mp4
+Clip 4: https://v3b.fal.media/files/b/0a8a1bcf/QbXEDiwOFUayrZjnqHlhX_pAcyO2WU.mp4
+</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Output URL:</h4><pre>https://v3b.fal.media/files/b/0a8a1bd4/rz-BcKsG7X7Yf5axcudMu_merged_video.mp4</pre></div></div><div class="section"><h2>Resource Usage</h2><div class="breakdown-container"><div class="breakdown-box"><h3 style="color:#ffaa00">Cost Breakdown</h3><div class="breakdown-row"><span>Jina Reader</span><span>Free</span></div><div class="breakdown-row"><span>Groq Summary</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>~$0.0005</span></div><div class="breakdown-row"><span>fal.ai LTX-2</span><span>~$0.40</span></div><div class="breakdown-row"><span>fal.ai Merge</span><span>~$0.02</span></div><div class="breakdown-row"><span>Total</span><span>~$0.44</span></div></div><div class="breakdown-box"><h3 style="color:#4CAF50">Time Breakdown</h3><div class="breakdown-row"><span>Groq Summary</span><span>0.36s</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>1.25s</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>0.57s</span></div><div class="breakdown-row"><span>Video Generation</span><span>~180s (4 clips)</span></div><div class="breakdown-row"><span>Video Merge</span><span>~8s</span></div><div class="breakdown-row"><span>Total</span><span>~190s</span></div></div></div></div><p class="timestamp">Generated: 2026-01-12T15:42:09.908Z | Daisychain v5.2</p></div></body></html>
