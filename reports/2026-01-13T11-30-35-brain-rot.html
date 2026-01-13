@@ -1,0 +1,200 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Pipeline Report: Brain rot</title><style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'JetBrains Mono',monospace;background:#000;color:#fff;padding:20px;line-height:1.6}
+h1{color:#fff;text-align:center;margin-bottom:5px}
+h2{color:#fff;border-bottom:1px solid #333;padding-bottom:10px;margin:20px 0 15px;font-size:1em}
+h3,h4{color:#fff}
+.section{background:#0a0a0a;border:1px solid #222;padding:20px;margin-bottom:20px}
+.section:hover{border-color:#444}
+.meta{display:flex;gap:15px;flex-wrap:wrap;margin-bottom:15px}
+.meta-item{background:#111;padding:8px 12px;border:1px solid #333}
+.meta-item .label{color:#888;font-size:0.75em;text-transform:uppercase}
+.meta-item .value{color:#fff;font-weight:bold}
+.data-block{background:#0a0a0a;border:1px solid #222;padding:15px;margin:10px 0}
+.input-block{border-left:4px solid #ffaa00}
+.output-block{border-left:4px solid #4CAF50}
+.config-block{border-left:4px solid #888}
+pre{background:#0a0a0a;color:#ccc;padding:10px;white-space:pre-wrap;word-wrap:break-word;max-height:400px;overflow-y:auto;font-size:0.85em;border:1px solid #222}
+.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}
+video{width:100%;border:1px solid #333}
+a{color:#fff}
+.breakdown-container{display:flex;gap:30px;flex-wrap:wrap}
+.breakdown-box{flex:1;min-width:280px;background:#111;border:1px solid #222;padding:15px}
+.breakdown-box h3{margin-bottom:15px;font-size:0.95em;border-bottom:1px solid #333;padding-bottom:8px}
+.breakdown-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #222;font-size:0.9em}
+.breakdown-row:last-child{font-weight:bold;border:none;color:#fff}
+.timestamp{text-align:center;color:#666;margin-top:30px;font-size:0.8em}
+.subtitle{color:#888;font-size:0.9em;text-align:center;margin-bottom:20px}
+</style></head><body><div style="max-width:1400px;margin:0 auto"><h1>Pipeline Report v5.2</h1><p class="subtitle">LTX-2 19B Distilled + Groq Llama-3.1 + fal.ai FFmpeg + Jina Reader | 2026-01-13T11:30:35.045Z</p><div class="section"><h2>Output Videos</h2><div style="text-align:center;padding:20px"><h3>Merged Output (32s)</h3><video controls src="https://v3b.fal.media/files/b/0a8a37af/eBrtRj24nobEc7KqZ8UVO_merged_video.mp4" style="max-height:400px"></video><br><a href="https://v3b.fal.media/files/b/0a8a37af/eBrtRj24nobEc7KqZ8UVO_merged_video.mp4" target="_blank" style="color:#fff">Download merged video</a></div><h3>Individual Clips</h3><div class="video-grid"><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 1</h4><video controls src="https://v3b.fal.media/files/b/0a8a379c/krddNVLLmDFG_K4ctXCjQ_QbMICxZy.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a379c/krddNVLLmDFG_K4ctXCjQ_QbMICxZy.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A person's fingers swipe through their phone with frantic speed, as the screen displays a blur of colorful distractions. Camera zooms in on their wide, apathetic eyes. Distorted guitar riff plays in the background, with a faint whisper of 'swipe, swipe, swipe...' (8 seconds).</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 2</h4><video controls src="https://v3b.fal.media/files/b/0a8a379e/xP-y9uH20C015vyar5W_9_ZC6nQjEO.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a379e/xP-y9uH20C015vyar5W_9_ZC6nQjEO.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A chaotic montage of people staring blankly at their screens, with phone screens behind them displaying memes, ads, and notifications. Camera cuts rapidly between different phones, creating disorientation. Manic electronic beat and rapid-fire sound effects of phones buzzing and fingers swiping (8 seconds).</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 3</h4><video controls src="https://v3b.fal.media/files/b/0a8a37a2/whAsVPIm5--VpKkBxGZlj_txRFXK5n.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a37a2/whAsVPIm5--VpKkBxGZlj_txRFXK5n.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A person's phone screen erupts into a digital firestorm, with notifications spewing out in every direction. Camera spins wildly, creating disorientation. Cacophonous mix of screaming alarms and digital chaos sounds, set to a frenetic drumbeat (8 seconds).</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 4</h4><video controls src="https://v3b.fal.media/files/b/0a8a37a8/nEWICECczk_pOZ-uQXe_G_bwnRF35V.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a37a8/nEWICECczk_pOZ-uQXe_G_bwnRF35V.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A person stands alone, phone in hand, in a desolate digital wasteland. Phone screen displays a black-and-white interface with 'UNPLUG' message. Camera zooms out to reveal a sea of people staring blankly at screens. Sober, uplifting soundtrack with a soaring guitar riff and hopeful voice whispering 'it's time to unplug' (8 seconds).</pre></div></div></div><div class="section"><h2>Step 0: Source</h2><div class="meta"><div class="meta-item"><div class="label">Type</div><div class="value">Wikipedia</div></div><div class="meta-item"><div class="label">Title</div><div class="value">Brain rot</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Storyboard</div><div class="value">Brainrot (exaggerated, chaotic, meme-style)</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Zoom in/out (dramatic reveal)</div></div></div><div class="data-block"><h4>Raw Content:</h4><pre>In Internet culture, the term brain rot describes digital media deemed to be of low quality or value. The term also more broadly refers to the harmful effects associated with excessive or disordered use of digital media, especially short-form entertainment and doomscrolling. Popularized by Generation Z and Generation Alpha social media users, the term has since entered mainstream usage.</pre></div></div><div class="section"><h2>Step 1: Summarization</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.31s</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Summarize the following content in 5-6 sentences. Focus on the most visual and dramatic aspects that would translate well to video:
+
+In Internet culture, the term brain rot describes digital media deemed to be of low quality or value. The term also more broadly refers to the harmful effects associated with excessive or disordered use of digital media, especially short-form entertainment and doomscrolling. Popularized by Generation Z and Generation Alpha social media users, the term has since entered mainstream usage....</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">LLM Output:</h4><pre>(Opening shot of a person scrolling through their phone with a look of distraction)
+
+Imagine a digital wasteland, where hours disappear in a haze of low-quality content. This is the world of "brain rot," where short-form entertainment and endless scrolling can be damaging to our mental health. (Cut to a montage of people glued to their screens, their faces bathed in the glow of their devices)
+
+The term has been popularized by younger generations who have grown up with social media, but its impact is now being felt by people of all ages. (Cut to a shot of a person's phone screen filled with endless notifications and feeds)
+
+As we dive deeper into this digital abyss, it's essential to take a step back and reassess our relationship with technology.</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-8224441c-7abf-4d81-bab7-60af18fd427b",
+  "object": "chat.completion",
+  "created": 1768303639,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "(Opening shot of a person scrolling through their phone with a look of distraction)\n\nImagine a digital wasteland, where hours disappear in a haze of low-quality content. This is the world of \"brain rot,\" where short-form entertainment and endless scrolling can be damaging to our mental health. (Cut to a montage of people glued to their screens, their faces bathed in the glow of their devices)\n\nThe term has been popularized by younger generations who have grown up with social media, but its impact is now being felt by people of all ages. (Cut to a shot of a person's phone screen filled with endless notifications and feeds)\n\nAs we dive deeper into this digital abyss, it's essential to take a step back and reassess our relationship with technology."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.125003756,
+    "prompt_tokens": 133,
+    "prompt_time": 0.043838942,
+    "completion_tokens": 154,
+    "completion_time": 0.310506788,
+    "total_tokens": 287,
+    "total_time": 0.35434573
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kevhre15fwva87ek0gkxdsv0",
+    "seed": 789839831
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 2: Storyboard</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Style</div><div class="value">Brainrot (exaggerated, chaotic, meme-style)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">1.56s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Style Instructions:</h4><pre>Create an EXTREMELY exaggerated, chaotic, meme-style storyboard. Use absurd metaphors, dramatic overreactions, zoomer humor, rapid cuts, distorted visuals. Make it feel like a viral TikTok fever dream. Everything should be OVER THE TOP.</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Based on this summary, create a 4-scene storyboard for FOUR 8-second video clips (32 seconds total). Each scene should be visually striking and build on the previous.
+
+SUMMARY: (Opening shot of a person scrolling through their phone with a look of distraction)
+
+Imagine a digital wasteland, where hours disappear in a haze of low-quality content. This is the world of "brain rot," where short-form entertainment and endless scrolling can be damaging to our mental health. (Cut to a montage of people glued to their screens, their faces bathed in the glow of their devices)
+
+The term has been popularized by younger generations who have grown up with social media, but its impact is now being felt by people of all ages. (Cut to a shot of a person's phone screen filled with endless notifications and feeds)
+
+As we dive deeper into this digital abyss, it's essential to take a step back and reassess our relationship with technology.
+
+STYLE INSTRUCTIONS: Create an EXTREMELY exaggerated, chaotic, meme-style storyboard. Use absurd metaphors, dramatic overreactions, zoomer humor, rapid cuts, distorted visuals. Make it feel like a viral TikTok fever dream. Everything should be OVER THE TOP.
+
+Respond in this exact JSON format:
+{
+  "scene1": { "description": "...", "mood": "...", "audioDescription": "..." },
+  "scene2": { ... },
+  "scene3": { ... },
+  "scene4": { ... }
+}</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "scene1": {
+    "description": "A hand scrolling through a phone at lightning speed, with the screen flashing by in a blur of colorful distractions. Text 'brain rot' is scribbled across the screen in bold, graffiti-style letters as the person's face contorts in a mix of boredom and desperation. The camera zooms in on their eyes, wide with a mixture of apathy and despair.",
+    "mood": "melancholic",
+    "audioDescription": "A haunting, distorted guitar riff and a faint whisper of ' swipe, swipe, swipe...'"
+  },
+  "scene2": {
+    "description": "A chaotic montage of people staring blankly at their screens, with their faces morphing into zombie-like expressions. The phone screens behind them display a dizzying array of memes, ads, and notifications, all blending together into a kaleidoscope of colorful chaos. The camera cuts rapidly between different phones, creating a sense of disorientation.",
+    "mood": "hysterical",
+    "audioDescription": "Rapid-fire sound effects of phones buzzing, notifications pinging, and fingers swiping through feeds, all set to a manic electronic beat"
+  },
+  "scene3": {
+    "description": "A person's phone screen erupts into a digital firestorm, with notifications, memes, and ads spewing out in every direction like a possessed digital creature. The person's hands are shown frantically trying to keep up with the onslaught, but it's too late – the digital chaos has taken over. The camera spins wildly, creating a sense of disorientation and panic.",
+    "mood": "panicked",
+    "audioDescription": "A cacophonous mix of screaming, alarms blaring, and digital chaos sounds, all set to a frenetic drumbeat"
+  },
+  "scene4": {
+    "description": "A person is shown standing alone, phone in hand, surrounded by a desolate digital wasteland. The phone screen displays a stark, black-and-white interface with a single, bold message: 'UNPLUG.' The camera zooms out to reveal a sea of people in the distance, all staring blankly at their screens. The person takes a deep breath, and with a resolute look, they slam their phone shut and take a step away from the digital abyss.",
+    "mood": "liberated",
+    "audioDescription": "A somber, uplifting soundtrack, with a soaring guitar riff and a gentle, hopeful voice whispering 'it's time to unplug'"
+  }
+}</pre></div><h4>Parsed Scenes:</h4><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 1:</strong> A hand scrolling through a phone at lightning speed, with the screen flashing by in a blur of colorful distractions. Text 'brain rot' is scribbled across the screen in bold, graffiti-style letters as the person's face contorts in a mix of boredom and desperation. The camera zooms in on their eyes, wide with a mixture of apathy and despair.<br><em style="color:#888">Mood: melancholic | Audio: A haunting, distorted guitar riff and a faint whisper of ' swipe, swipe, swipe...'</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 2:</strong> A chaotic montage of people staring blankly at their screens, with their faces morphing into zombie-like expressions. The phone screens behind them display a dizzying array of memes, ads, and notifications, all blending together into a kaleidoscope of colorful chaos. The camera cuts rapidly between different phones, creating a sense of disorientation.<br><em style="color:#888">Mood: hysterical | Audio: Rapid-fire sound effects of phones buzzing, notifications pinging, and fingers swiping through feeds, all set to a manic electronic beat</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 3:</strong> A person's phone screen erupts into a digital firestorm, with notifications, memes, and ads spewing out in every direction like a possessed digital creature. The person's hands are shown frantically trying to keep up with the onslaught, but it's too late – the digital chaos has taken over. The camera spins wildly, creating a sense of disorientation and panic.<br><em style="color:#888">Mood: panicked | Audio: A cacophonous mix of screaming, alarms blaring, and digital chaos sounds, all set to a frenetic drumbeat</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 4:</strong> A person is shown standing alone, phone in hand, surrounded by a desolate digital wasteland. The phone screen displays a stark, black-and-white interface with a single, bold message: 'UNPLUG.' The camera zooms out to reveal a sea of people in the distance, all staring blankly at their screens. The person takes a deep breath, and with a resolute look, they slam their phone shut and take a step away from the digital abyss.<br><em style="color:#888">Mood: liberated | Audio: A somber, uplifting soundtrack, with a soaring guitar riff and a gentle, hopeful voice whispering 'it's time to unplug'</em></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-0a0d60fd-be5b-4a10-8795-e466657c6681",
+  "object": "chat.completion",
+  "created": 1768303640,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"scene1\": {\n    \"description\": \"A hand scrolling through a phone at lightning speed, with the screen flashing by in a blur of colorful distractions. Text 'brain rot' is scribbled across the screen in bold, graffiti-style letters as the person's face contorts in a mix of boredom and desperation. The camera zooms in on their eyes, wide with a mixture of apathy and despair.\",\n    \"mood\": \"melancholic\",\n    \"audioDescription\": \"A haunting, distorted guitar riff and a faint whisper of ' swipe, swipe, swipe...'\"\n  },\n  \"scene2\": {\n    \"description\": \"A chaotic montage of people staring blankly at their screens, with their faces morphing into zombie-like expressions. The phone screens behind them display a dizzying array of memes, ads, and notifications, all blending together into a kaleidoscope of colorful chaos. The camera cuts rapidly between different phones, creating a sense of disorientation.\",\n    \"mood\": \"hysterical\",\n    \"audioDescription\": \"Rapid-fire sound effects of phones buzzing, notifications pinging, and fingers swiping through feeds, all set to a manic electronic beat\"\n  },\n  \"scene3\": {\n    \"description\": \"A person's phone screen erupts into a digital firestorm, with notifications, memes, and ads spewing out in every direction like a possessed digital creature. The person's hands are shown frantically trying to keep up with the onslaught, but it's too late – the digital chaos has taken over. The camera spins wildly, creating a sense of disorientation and panic.\",\n    \"mood\": \"panicked\",\n    \"audioDescription\": \"A cacophonous mix of screaming, alarms blaring, and digital chaos sounds, all set to a frenetic drumbeat\"\n  },\n  \"scene4\": {\n    \"description\": \"A person is shown standing alone, phone in hand, surrounded by a desolate digital wasteland. The phone screen displays a stark, black-and-white interface with a single, bold message: 'UNPLUG.' The camera zooms out to reveal a sea of people in the distance, all staring blankly at their screens. The person takes a deep breath, and with a resolute look, they slam their phone shut and take a step away from the digital abyss.\",\n    \"mood\": \"liberated\",\n    \"audioDescription\": \"A somber, uplifting soundtrack, with a soaring guitar riff and a gentle, hopeful voice whispering 'it's time to unplug'\"\n  }\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.089833842,
+    "prompt_tokens": 499,
+    "prompt_time": 0.088027645,
+    "completion_tokens": 530,
+    "completion_time": 1.559426165,
+    "total_tokens": 1029,
+    "total_time": 1.64745381
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kevhrejmfx095wwcwe4v10rz",
+    "seed": 1152500388
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 3: Video Prompts</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Zoom in/out (dramatic reveal)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.35s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Camera Instructions:</h4><pre>dramatic zoom movement, push in or pull out, revealing shot, cinematic zoom</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Create 4 text-to-video prompts for LTX-2 AI video model with NATIVE AUDIO.
+
+CAMERA STYLE TO USE: dramatic zoom movement, push in or pull out, revealing shot, cinematic zoom
+
+Scene 1 (Opening Hook): A hand scrolling through a phone at lightning speed, with the screen flashing by in a blur of colorful distractions. Text 'brain rot' is scribbled across the screen in bold, graffiti-style letters as the person's face contorts in a mix of boredom and desperation. The camera zooms in on their eyes, wide with a mixture of apathy and despair. - melancholic mood. Audio: A haunting, distorted guitar riff and a faint whisper of ' swipe, swipe, swipe...'
+
+Scene 2 (Build-up): A chaotic montage of people staring blankly at their screens, with their faces morphing into zombie-like expressions. The phone screens behind them display a dizzying array of memes, ads, and notifications, all blending together into a kaleidoscope of colorful chaos. The camera cuts rapidly between different phones, creating a sense of disorientation. - hysterical mood. Audio: Rapid-fire sound effects of phones buzzing, notifications pinging, and fingers swiping through feeds, all set to a manic electronic beat
+
+Scene 3 (Climax): A person's phone screen erupts into a digital firestorm, with notifications, memes, and ads spewing out in every direction like a possessed digital creature. The person's hands are shown frantically trying to keep up with the onslaught, but it's too late – the digital chaos has taken over. The camera spins wildly, creating a sense of disorientation and panic. - panicked mood. Audio: A cacophonous mix of screaming, alarms blaring, and digital chaos sounds, all set to a frenetic drumbeat
+
+Scene 4 (Conclusion): A person is shown standing alone, phone in hand, surrounded by a desolate digital wasteland. The phone screen displays a stark, black-and-white interface with a single, bold message: 'UNPLUG.' The camera zooms out to reveal a sea of people in the distance, all staring blankly at their screens. The person takes a deep breath, and with a resolute look, they slam their phone shut and take a step away from the digital abyss. - liberated mood. Audio: A somber, uplifting soundtrack, with a soaring guitar riff and a gentle, hopeful voice whispering 'it's time to unplug'
+
+Respond in JSON format with prompt1, prompt2, prompt3, prompt4.</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "prompt1": "A person's fingers swipe through their phone with frantic speed, as the screen displays a blur of colorful distractions. Camera zooms in on their wide, apathetic eyes. Distorted guitar riff plays in the background, with a faint whisper of 'swipe, swipe, swipe...' (8 seconds).",
+  "prompt2": "A chaotic montage of people staring blankly at their screens, with phone screens behind them displaying memes, ads, and notifications. Camera cuts rapidly between different phones, creating disorientation. Manic electronic beat and rapid-fire sound effects of phones buzzing and fingers swiping (8 seconds).",
+  "prompt3": "A person's phone screen erupts into a digital firestorm, with notifications spewing out in every direction. Camera spins wildly, creating disorientation. Cacophonous mix of screaming alarms and digital chaos sounds, set to a frenetic drumbeat (8 seconds).",
+  "prompt4": "A person stands alone, phone in hand, in a desolate digital wasteland. Phone screen displays a black-and-white interface with 'UNPLUG' message. Camera zooms out to reveal a sea of people staring blankly at screens. Sober, uplifting soundtrack with a soaring guitar riff and hopeful voice whispering 'it's time to unplug' (8 seconds)."
+}</pre></div><h4>Parsed Prompts:</h4><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 1:</strong><pre>A person's fingers swipe through their phone with frantic speed, as the screen displays a blur of colorful distractions. Camera zooms in on their wide, apathetic eyes. Distorted guitar riff plays in the background, with a faint whisper of 'swipe, swipe, swipe...' (8 seconds).</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 2:</strong><pre>A chaotic montage of people staring blankly at their screens, with phone screens behind them displaying memes, ads, and notifications. Camera cuts rapidly between different phones, creating disorientation. Manic electronic beat and rapid-fire sound effects of phones buzzing and fingers swiping (8 seconds).</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 3:</strong><pre>A person's phone screen erupts into a digital firestorm, with notifications spewing out in every direction. Camera spins wildly, creating disorientation. Cacophonous mix of screaming alarms and digital chaos sounds, set to a frenetic drumbeat (8 seconds).</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 4:</strong><pre>A person stands alone, phone in hand, in a desolate digital wasteland. Phone screen displays a black-and-white interface with 'UNPLUG' message. Camera zooms out to reveal a sea of people staring blankly at screens. Sober, uplifting soundtrack with a soaring guitar riff and hopeful voice whispering 'it's time to unplug' (8 seconds).</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-be627787-151a-4258-a06b-217e77890a8b",
+  "object": "chat.completion",
+  "created": 1768303641,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"prompt1\": \"A person's fingers swipe through their phone with frantic speed, as the screen displays a blur of colorful distractions. Camera zooms in on their wide, apathetic eyes. Distorted guitar riff plays in the background, with a faint whisper of 'swipe, swipe, swipe...' (8 seconds).\",\n  \"prompt2\": \"A chaotic montage of people staring blankly at their screens, with phone screens behind them displaying memes, ads, and notifications. Camera cuts rapidly between different phones, creating disorientation. Manic electronic beat and rapid-fire sound effects of phones buzzing and fingers swiping (8 seconds).\",\n  \"prompt3\": \"A person's phone screen erupts into a digital firestorm, with notifications spewing out in every direction. Camera spins wildly, creating disorientation. Cacophonous mix of screaming alarms and digital chaos sounds, set to a frenetic drumbeat (8 seconds).\",\n  \"prompt4\": \"A person stands alone, phone in hand, in a desolate digital wasteland. Phone screen displays a black-and-white interface with 'UNPLUG' message. Camera zooms out to reveal a sea of people staring blankly at screens. Sober, uplifting soundtrack with a soaring guitar riff and hopeful voice whispering 'it's time to unplug' (8 seconds).\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.10227369,
+    "prompt_tokens": 913,
+    "prompt_time": 0.082653236,
+    "completion_tokens": 278,
+    "completion_time": 0.348228677,
+    "total_tokens": 1191,
+    "total_time": 0.430881913
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kevhrgb3fxjbedkzpnmcegba",
+    "seed": 1945740886
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 4: Video Generation</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.40</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~180s (4 clips)</div></div></div><div class="data-block config-block"><h4 style="color:#888">API Config:</h4><pre>{
+  "resolution": "480x848 (9:16)",
+  "num_frames": 201,
+  "fps": 25,
+  "duration": "8 seconds",
+  "generateAudio": true,
+  "negativePrompt": "low resolution, error, worst quality, low quality, defects, blurry, distorted"
+}</pre></div></div><div class="section"><h2>Step 5: Merge</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai FFmpeg API</div></div><div class="meta-item"><div class="label">Duration</div><div class="value">32 seconds</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.02</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~8s</div></div><div class="meta-item"><div class="label">Status</div><div class="value">Success</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input URLs:</h4><pre>Clip 1: https://v3b.fal.media/files/b/0a8a379c/krddNVLLmDFG_K4ctXCjQ_QbMICxZy.mp4
+Clip 2: https://v3b.fal.media/files/b/0a8a379e/xP-y9uH20C015vyar5W_9_ZC6nQjEO.mp4
+Clip 3: https://v3b.fal.media/files/b/0a8a37a2/whAsVPIm5--VpKkBxGZlj_txRFXK5n.mp4
+Clip 4: https://v3b.fal.media/files/b/0a8a37a8/nEWICECczk_pOZ-uQXe_G_bwnRF35V.mp4
+</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Output URL:</h4><pre>https://v3b.fal.media/files/b/0a8a37af/eBrtRj24nobEc7KqZ8UVO_merged_video.mp4</pre></div></div><div class="section"><h2>Resource Usage</h2><div class="breakdown-container"><div class="breakdown-box"><h3 style="color:#ffaa00">Cost Breakdown</h3><div class="breakdown-row"><span>Jina Reader</span><span>Free</span></div><div class="breakdown-row"><span>Groq Summary</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>~$0.0005</span></div><div class="breakdown-row"><span>fal.ai LTX-2</span><span>~$0.40</span></div><div class="breakdown-row"><span>fal.ai Merge</span><span>~$0.02</span></div><div class="breakdown-row"><span>Total</span><span>~$0.44</span></div></div><div class="breakdown-box"><h3 style="color:#4CAF50">Time Breakdown</h3><div class="breakdown-row"><span>Groq Summary</span><span>0.31s</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>1.56s</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>0.35s</span></div><div class="breakdown-row"><span>Video Generation</span><span>~180s (4 clips)</span></div><div class="breakdown-row"><span>Video Merge</span><span>~8s</span></div><div class="breakdown-row"><span>Total</span><span>~190s</span></div></div></div></div><p class="timestamp">Generated: 2026-01-13T11:30:35.045Z | Daisychain v5.2</p></div></body></html>
