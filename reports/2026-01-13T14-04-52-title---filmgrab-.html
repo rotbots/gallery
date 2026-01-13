@@ -1,0 +1,361 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Pipeline Report: Title: [FILMGRAB]</title><style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'JetBrains Mono',monospace;background:#000;color:#fff;padding:20px;line-height:1.6}
+h1{color:#fff;text-align:center;margin-bottom:5px}
+h2{color:#fff;border-bottom:1px solid #333;padding-bottom:10px;margin:20px 0 15px;font-size:1em}
+h3,h4{color:#fff}
+.section{background:#0a0a0a;border:1px solid #222;padding:20px;margin-bottom:20px}
+.section:hover{border-color:#444}
+.meta{display:flex;gap:15px;flex-wrap:wrap;margin-bottom:15px}
+.meta-item{background:#111;padding:8px 12px;border:1px solid #333}
+.meta-item .label{color:#888;font-size:0.75em;text-transform:uppercase}
+.meta-item .value{color:#fff;font-weight:bold}
+.data-block{background:#0a0a0a;border:1px solid #222;padding:15px;margin:10px 0}
+.input-block{border-left:4px solid #ffaa00}
+.output-block{border-left:4px solid #4CAF50}
+.config-block{border-left:4px solid #888}
+pre{background:#0a0a0a;color:#ccc;padding:10px;white-space:pre-wrap;word-wrap:break-word;max-height:400px;overflow-y:auto;font-size:0.85em;border:1px solid #222}
+.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}
+video{width:100%;border:1px solid #333}
+a{color:#fff}
+.breakdown-container{display:flex;gap:30px;flex-wrap:wrap}
+.breakdown-box{flex:1;min-width:280px;background:#111;border:1px solid #222;padding:15px}
+.breakdown-box h3{margin-bottom:15px;font-size:0.95em;border-bottom:1px solid #333;padding-bottom:8px}
+.breakdown-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #222;font-size:0.9em}
+.breakdown-row:last-child{font-weight:bold;border:none;color:#fff}
+.timestamp{text-align:center;color:#666;margin-top:30px;font-size:0.8em}
+.subtitle{color:#888;font-size:0.9em;text-align:center;margin-bottom:20px}
+</style></head><body><div style="max-width:1400px;margin:0 auto"><h1>Pipeline Report v5.2</h1><p class="subtitle">LTX-2 19B Distilled + Groq Llama-3.1 + fal.ai FFmpeg + Jina Reader | 2026-01-13T14:04:52.805Z</p><div class="section"><h2>Output Videos</h2><div style="text-align:center;padding:20px"><h3>Merged Output (32s)</h3><video controls src="https://v3b.fal.media/files/b/0a8a3b4c/MScieneH-P7FsE7AkIP_v_merged_video.mp4" style="max-height:400px"></video><br><a href="https://v3b.fal.media/files/b/0a8a3b4c/MScieneH-P7FsE7AkIP_v_merged_video.mp4" target="_blank" style="color:#fff">Download merged video</a></div><h3>Individual Clips</h3><div class="video-grid"><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 1</h4><video controls src="https://v3b.fal.media/files/b/0a8a3b41/LZ5p-PD0ZJFfipzx9FtXc_ypNy5Bfo.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3b41/LZ5p-PD0ZJFfipzx9FtXc_ypNy5Bfo.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A 5-second video showcasing Film-Grab's 'Crawl' image: a massive alligator emerging from murky waters. Static camera, locked frame, film-like composition. Audio: Intense music starts with a ominous swamp ambiance, building into a frantic pace.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 2</h4><video controls src="https://v3b.fal.media/files/b/0a8a3b43/lH3NLYbRkGxh9E0cE3ksy_dBJrgL4L.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3b43/lH3NLYbRkGxh9E0cE3ksy_dBJrgL4L.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A 5-second video highlighting Film-Grab's 'Comanche Station' image: a lone cowboy riding into a dusty town. Static camera, locked frame, film-like composition. Audio: A haunting Western theme plays softly, gradually intensifying with horse hooves and distant town sounds.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 3</h4><video controls src="https://v3b.fal.media/files/b/0a8a3b46/mhRSsB4_Bo-N-vEdDEHcb_VZG0PRkb.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3b46/mhRSsB4_Bo-N-vEdDEHcb_VZG0PRkb.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A 5-second video featuring Film-Grab's 'Nitram' image: a haunting close-up of a character's face. Static camera, locked frame, film-like composition. Audio: A melancholic piano melody plays softly, with distant whispers and footsteps adding to the eerie atmosphere.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 4</h4><video controls src="https://v3b.fal.media/files/b/0a8a3b48/sv9O6VrCaZNJSKv3H_AaA_GaqvpAzp.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3b48/sv9O6VrCaZNJSKv3H_AaA_GaqvpAzp.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A 5-second video showcasing Film-Grab's 'The Misfits' image: a dramatic cliffhanger. Static camera, locked frame, film-like composition. Audio: A dramatic orchestral score swells, with wind and distant landscape sounds adding depth, as the music resolves with a sense of hope.</pre></div></div></div><div class="section"><h2>Step 0: Source</h2><div class="meta"><div class="meta-item"><div class="label">Type</div><div class="value">Random Website URL</div></div><div class="meta-item"><div class="label">Title</div><div class="value">Title: [FILMGRAB]</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Storyboard</div><div class="value">Cinematic (dramatic, professional film look)</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Static cinematic (fixed frame, film-like)</div></div></div><div class="data-block"><h4>Raw Content:</h4><pre>Title: [FILMGRAB]
+
+URL Source: https://film-grab.com/
+
+Markdown Content:
+[![Image 1](https://film-grab.com/wp-content/uploads/2023/11/Crawl-34.jpg)](https://film-grab.com/2026/01/12/crawl/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[Crawl](https://film-grab.com/2026/01/12/crawl/ "Crawl")
+--------------------------------------------------------
+
+[Alexandre Aja • 2019]
+
+[View More Crawl](https://film-grab.com/2026/01/12/crawl/)
+
+[![Image 2](https://film-grab.com/wp-content/uploads/2023/12/Comanche-Station-05.jpg)](https://film-grab.com/2026/01/11/comanche-station/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[Comanche Station](https://film-grab.com/2026/01/11/comanche-station/ "Comanche Station")
+-----------------------------------------------------------------------------------------
+
+[Budd Boetticher • 1960]
+
+[View More Comanche Station](https://film-grab.com/2026/01/11/comanche-station/)
+
+[![Image 3](https://film-grab.com/wp-content/uploads/2023/11/Charm-City-Kings-23.jpg)](https://film-grab.com/2026/01/10/charm-city-kings/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[Charm City Kings](https://film-grab.com/2026/01/10/charm-city-kings/ "Charm City Kings")
+-----------------------------------------------------------------------------------------
+
+[Angel Manuel Soto • 2020]
+
+[View More Charm City Kings](https://film-grab.com/2026/01/10/charm-city-kings/)
+
+[![Image 4](https://film-grab.com/wp-content/uploads/2023/11/Sisu-26.jpg)](https://film-grab.com/2026/01/09/sisu/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[Sisu](https://film-grab.com/2026/01/09/sisu/ "Sisu")
+-----------------------------------------------------
+
+[Jalmari Helander • 2022]
+
+[View More Sisu](https://film-grab.com/2026/01/09/sisu/)
+
+[![Image 5](https://film-grab.com/wp-content/uploads/2024/06/The-Killers-27.jpg)](https://film-grab.com/2026/01/08/the-killers/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[The Killers](https://film-grab.com/2026/01/08/the-killers/ "The Killers")
+--------------------------------------------------------------------------
+
+[Robert Siodmak • 1946]
+
+[View More The Killers](https://film-grab.com/2026/01/08/the-killers/)
+
+[![Image 6](https://film-grab.com/wp-content/uploads/2023/12/Nitram-04.jpg)](https://film-grab.com/2026/01/07/nitram/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[Nitram](https://film-grab.com/2026/01/07/nitram/ "Nitram")
+-----------------------------------------------------------
+
+[Justin Kurzel • 2021]
+
+[View More Nitram](https://film-grab.com/2026/01/07/nitram/)
+
+[![Image 7](https://film-grab.com/wp-content/uploads/2024/03/The-Misfits-43.jpg)](https://film-grab.com/2026/01/06/the-misfits/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[The Misfits](https://film-grab.com/2026/01/06/the-misfits/ "The Misfits")
+--------------------------------------------------------------------------
+
+[John Huston • 1961]
+
+[View More The Misfits](https://film-grab.com/2026/01/06/the-misfits/)
+
+[![Image 8](https://film-grab.com/wp-content/uploads/2023/12/Planet-Terror-55.jpg)](https://film-grab.com/2026/01/05/planet-terror/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[Planet Terror](https://film-grab.com/2026/01/05/planet-terror/ "Planet Terror")
+--------------------------------------------------------------------------------
+
+[Robert Rodriguez • 2007]
+
+[View More Planet Terror](https://film-grab.com/2026/01/05/planet-terror/)
+
+[![Image 9](https://film-grab.com/wp-content/uploads/2024/03/Beasts-Clawing-At-Straws-22.jpg)](https://film-grab.com/2026/01/04/beasts-clawing-at-straws/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[Beasts Clawing At Straws](https://film-grab.com/2026/01/04/beasts-clawing-at-straws/ "Beasts Clawing At Straws")
+-----------------------------------------------------------------------------------------------------------------
+
+[Kim Yong-hoon • 2020]
+
+[View More Beasts Clawing At Straws](https://film-grab.com/2026/01/04/beasts-clawing-at-straws/)
+
+[![Image 10](https://</pre></div></div><div class="section"><h2>Step 1: Summarization</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.58s</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Summarize the following content in 5-6 sentences. Focus on the most visual and dramatic aspects that would translate well to video:
+
+Title: [FILMGRAB]
+
+URL Source: https://film-grab.com/
+
+Markdown Content:
+[![Image 1](https://film-grab.com/wp-content/uploads/2023/11/Crawl-34.jpg)](https://film-grab.com/2026/01/12/crawl/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[Crawl](https://film-grab.com/2026/01/12/crawl/ "Crawl")
+--------------------------------------------------------
+
+[Alexandre Aja • 2019]
+
+[View More Crawl](https://film-grab.com/2026/01/12/crawl/)
+
+[![Image 2](https://film-grab.com/wp-content/uploads/2023/12/Comanche-Station-05.jpg)](https://film-grab.com/2026/01/11/comanche-station/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[Comanche Station](https://film-grab.com/2026/01/11/comanche-station/ "Comanche Station")
+-----------------------------------------------------------------------------------------
+
+[Budd Boetticher • 1960]
+
+[View More Comanche Station](https://film-grab.com/2026/01/11/comanche-station/)
+
+[![Image 3](https://film-grab.com/wp-content/uploads/2023/11/Charm-City-Kings-23.jpg)](https://film-grab.com/2026/01/10/charm-city-kings/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[Charm City Kings](https://film-grab.com/2026/01/10/charm-city-kings/ "Charm City Kings")
+-----------------------------------------------------------------------------------------
+
+[Angel Manuel Soto • 2020]
+
+[View More Charm City Kings](https://film-grab.com/2026/01/10/charm-city-kings/)
+
+[![Image 4](https://film-grab.com/wp-content/uploads/2023/11/Sisu-26.jpg)](https://film-grab.com/2026/01/09/sisu/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[Sisu](https://film-grab.com/2026/01/09/sisu/ "Sisu")
+-----------------------------------------------------
+
+[Jalmari Helander • 2022]
+
+[View More Sisu](https://film-grab.com/2026/01/09/sisu/)
+
+[![Image 5](https://film-grab.com/wp-content/uploads/2024/06/The-Killers-27.jpg)](https://film-grab.com/2026/01/08/the-killers/)
+
+[Gallery](https://film-grab.com/type/gallery/)
+
+[The Killers](https://film-grab.com/2026/01/08/the-killers/ "The Kille...</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">LLM Output:</h4><pre>Here's a summary of the content in 5-6 sentences, focusing on the most visual and dramatic aspects that would translate well to video:
+
+[Visual: A shot of a massive alligator crawling out of a dark, murky swamp in the film "Crawl" (2019)]
+
+The website Film-Grab features a curated selection of film images, showcasing a diverse range of cinematic masterpieces. [Visual: A gritty, black-and-white photo of a lone cowboy riding into a dusty town, taken from the film "Comanche Station" (1960)]
+
+The gallery includes classics like "Comanche Station" by Budd Boetticher and "The Misfits" by John Huston, as well as more recent releases like "Sisu" by Jalmari Helander and "Nitram" by Justin Kurzel. [Visual: A shot of a stylish, high-octane action scene from "Planet Terror" (2007) by Robert Rodriguez]
+
+Each film is paired with a striking image that captures the essence of the movie, inviting viewers to explore the world of cinema. [Visual: A haunting close-up of a character's face, taken from "Nitram" (2021)]
+
+From Westerns to horror, Film-Grab's gallery offers a unique glimpse into the world of film, with something for every cinematic enthusiast. [Visual: A dramatic shot of a character standing at the edge of a cliff, taken from "The Misfits" (1961)]</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-ee699df2-2e21-4be5-a0dc-feda22b2978b",
+  "object": "chat.completion",
+  "created": 1768312968,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Here's a summary of the content in 5-6 sentences, focusing on the most visual and dramatic aspects that would translate well to video:\n\n[Visual: A shot of a massive alligator crawling out of a dark, murky swamp in the film \"Crawl\" (2019)]\n\nThe website Film-Grab features a curated selection of film images, showcasing a diverse range of cinematic masterpieces. [Visual: A gritty, black-and-white photo of a lone cowboy riding into a dusty town, taken from the film \"Comanche Station\" (1960)]\n\nThe gallery includes classics like \"Comanche Station\" by Budd Boetticher and \"The Misfits\" by John Huston, as well as more recent releases like \"Sisu\" by Jalmari Helander and \"Nitram\" by Justin Kurzel. [Visual: A shot of a stylish, high-octane action scene from \"Planet Terror\" (2007) by Robert Rodriguez]\n\nEach film is paired with a striking image that captures the essence of the movie, inviting viewers to explore the world of cinema. [Visual: A haunting close-up of a character's face, taken from \"Nitram\" (2021)]\n\nFrom Westerns to horror, Film-Grab's gallery offers a unique glimpse into the world of film, with something for every cinematic enthusiast. [Visual: A dramatic shot of a character standing at the edge of a cliff, taken from \"The Misfits\" (1961)]"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.097589353,
+    "prompt_tokens": 1240,
+    "prompt_time": 0.096890866,
+    "completion_tokens": 299,
+    "completion_time": 0.581005437,
+    "total_tokens": 1539,
+    "total_time": 0.677896303
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kevtn4h2fa1rrx493eyz5vqq",
+    "seed": 577348752
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 2: Storyboard</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Style</div><div class="value">Cinematic (dramatic, professional film look)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.66s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Style Instructions:</h4><pre>Create a professional cinematic storyboard with dramatic lighting, careful composition, emotional depth, and movie-quality visual storytelling. Think Hollywood blockbuster.</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Based on this summary, create a 4-scene storyboard for FOUR 8-second video clips (32 seconds total). Each scene should be visually striking and build on the previous.
+
+SUMMARY: Here's a summary of the content in 5-6 sentences, focusing on the most visual and dramatic aspects that would translate well to video:
+
+[Visual: A shot of a massive alligator crawling out of a dark, murky swamp in the film "Crawl" (2019)]
+
+The website Film-Grab features a curated selection of film images, showcasing a diverse range of cinematic masterpieces. [Visual: A gritty, black-and-white photo of a lone cowboy riding into a dusty town, taken from the film "Comanche Station" (1960)]
+
+The gallery includes classics like "Comanche Station" by Budd Boetticher and "The Misfits" by John Huston, as well as more recent releases like "Sisu" by Jalmari Helander and "Nitram" by Justin Kurzel. [Visual: A shot of a stylish, high-octane action scene from "Planet Terror" (2007) by Robert Rodriguez]
+
+Each film is paired with a striking image that captures the essence of the movie, inviting viewers to explore the world of cinema. [Visual: A haunting close-up of a character's face, taken from "Nitram" (2021)]
+
+From Westerns to horror, Film-Grab's gallery offers a unique glimpse into the world of film, with something for every cinematic enthusiast. [Visual: A dramatic shot of a character standing at the edge of a cliff, taken from "The Misfits" (1961)]
+
+STYLE INSTRUCTIONS: Create a professional cinematic storyboard with dramatic lighting, careful composition, emotional depth, and movie-quality visual storytelling. Think Hollywood blockbuster.
+
+Respond in this exact JSON format:
+{
+  "scene1": { "description": "...", "mood": "...", "audioDescription": "..." },
+  "scene2": { ... },
+  "scene3": { ... },
+  "scene4": { ... }
+}</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "scene1": {
+    "description": "A massive, ancient alligator emerges from a dark, misty swamp, its scaly body slowly breaking through the murky waters. Camera pans up as the alligator raises its head, revealing glowing, yellow eyes. The atmosphere is ominous, foreboding.",
+    "mood": "menacing",
+    "audioDescription": "Heavy, pulsing bass music with eerie sound effects, building tension"
+  },
+  "scene2": "A gritty, black-and-white image of a lone cowboy riding into a dusty town, the sun setting behind him. Dust kicks up as the horse's hooves hit the ground, and the cowboy gazes out at the viewer with a mix of determination and weariness. The atmosphere is desolate, melancholic.",
+  "mood": "somber",
+  "audioDescription": "A lone, mournful guitar melody with the sound of distant horses and wind rustling through the trees"
+  },
+  "scene3": "Explosive gunfire and high-octane action as a stylish, high-octane scene from 'Planet Terror' erupts on screen. Bullets whiz by, and bodies fly through the air. The atmosphere is frenetic, exhilarating.",
+  "mood": "intense",
+  "audioDescription": "Pounding, electronic music with the sound effects of gunfire and explosions"
+  },
+  "scene4": "A haunting close-up of a character's face from 'Nitram' stares out at the viewer, eyes sunken and haunted. The atmosphere is unnerving, introspective. Suddenly, the image shifts to a dramatic shot of a character standing at the edge of a cliff, taken from 'The Misfits', with a breathtaking vista behind them. The atmosphere is awe-inspiring, hopeful.",
+  "mood": "emotional",
+  "audioDescription": "Mournful piano music with the sound of a gentle breeze rustling through the trees, building to a soaring, cinematic score"
+}</pre></div><h4>Parsed Scenes:</h4><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 1:</strong> Opening hook scene<br><em style="color:#888">Mood: dramatic | Audio: Intense music builds</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 2:</strong> Build-up scene<br><em style="color:#888">Mood: rising tension | Audio: Music intensifies</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 3:</strong> Climax scene<br><em style="color:#888">Mood: peak intensity | Audio: Dramatic crescendo</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 4:</strong> Conclusion scene<br><em style="color:#888">Mood: resolution | Audio: Resolving ambient sounds</em></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-9fa6cca8-9252-4cba-8606-41702b11ce71",
+  "object": "chat.completion",
+  "created": 1768312969,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"scene1\": {\n    \"description\": \"A massive, ancient alligator emerges from a dark, misty swamp, its scaly body slowly breaking through the murky waters. Camera pans up as the alligator raises its head, revealing glowing, yellow eyes. The atmosphere is ominous, foreboding.\",\n    \"mood\": \"menacing\",\n    \"audioDescription\": \"Heavy, pulsing bass music with eerie sound effects, building tension\"\n  },\n  \"scene2\": \"A gritty, black-and-white image of a lone cowboy riding into a dusty town, the sun setting behind him. Dust kicks up as the horse's hooves hit the ground, and the cowboy gazes out at the viewer with a mix of determination and weariness. The atmosphere is desolate, melancholic.\",\n  \"mood\": \"somber\",\n  \"audioDescription\": \"A lone, mournful guitar melody with the sound of distant horses and wind rustling through the trees\"\n  },\n  \"scene3\": \"Explosive gunfire and high-octane action as a stylish, high-octane scene from 'Planet Terror' erupts on screen. Bullets whiz by, and bodies fly through the air. The atmosphere is frenetic, exhilarating.\",\n  \"mood\": \"intense\",\n  \"audioDescription\": \"Pounding, electronic music with the sound effects of gunfire and explosions\"\n  },\n  \"scene4\": \"A haunting close-up of a character's face from 'Nitram' stares out at the viewer, eyes sunken and haunted. The atmosphere is unnerving, introspective. Suddenly, the image shifts to a dramatic shot of a character standing at the edge of a cliff, taken from 'The Misfits', with a breathtaking vista behind them. The atmosphere is awe-inspiring, hopeful.\",\n  \"mood\": \"emotional\",\n  \"audioDescription\": \"Mournful piano music with the sound of a gentle breeze rustling through the trees, building to a soaring, cinematic score\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.093518699,
+    "prompt_tokens": 618,
+    "prompt_time": 0.036841784,
+    "completion_tokens": 417,
+    "completion_time": 0.657163265,
+    "total_tokens": 1035,
+    "total_time": 0.694005049
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_1151d4f23c",
+  "x_groq": {
+    "id": "req_01kevtn5b4fa7tyz4avemy2791",
+    "seed": 2092508567
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 3: Video Prompts</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Static cinematic (fixed frame, film-like)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.50s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Camera Instructions:</h4><pre>static cinematic frame, locked camera, film-like composition, no camera movement, professional framing</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Create 4 text-to-video prompts for LTX-2 AI video model with NATIVE AUDIO.
+
+CAMERA STYLE TO USE: static cinematic frame, locked camera, film-like composition, no camera movement, professional framing
+
+Scene 1 (Opening Hook): Opening hook scene - dramatic mood. Audio: Intense music builds
+
+Scene 2 (Build-up): Build-up scene - rising tension mood. Audio: Music intensifies
+
+Scene 3 (Climax): Climax scene - peak intensity mood. Audio: Dramatic crescendo
+
+Scene 4 (Conclusion): Conclusion scene - resolution mood. Audio: Resolving ambient sounds
+
+Respond in JSON format with prompt1, prompt2, prompt3, prompt4.</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "prompt1": "A 5-second video showcasing Film-Grab's 'Crawl' image: a massive alligator emerging from murky waters. Static camera, locked frame, film-like composition. Audio: Intense music starts with a ominous swamp ambiance, building into a frantic pace.",
+  "prompt2": "A 5-second video highlighting Film-Grab's 'Comanche Station' image: a lone cowboy riding into a dusty town. Static camera, locked frame, film-like composition. Audio: A haunting Western theme plays softly, gradually intensifying with horse hooves and distant town sounds.",
+  "prompt3": "A 5-second video featuring Film-Grab's 'Nitram' image: a haunting close-up of a character's face. Static camera, locked frame, film-like composition. Audio: A melancholic piano melody plays softly, with distant whispers and footsteps adding to the eerie atmosphere.",
+  "prompt4": "A 5-second video showcasing Film-Grab's 'The Misfits' image: a dramatic cliffhanger. Static camera, locked frame, film-like composition. Audio: A dramatic orchestral score swells, with wind and distant landscape sounds adding depth, as the music resolves with a sense of hope."
+}</pre></div><h4>Parsed Prompts:</h4><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 1:</strong><pre>A 5-second video showcasing Film-Grab's 'Crawl' image: a massive alligator emerging from murky waters. Static camera, locked frame, film-like composition. Audio: Intense music starts with a ominous swamp ambiance, building into a frantic pace.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 2:</strong><pre>A 5-second video highlighting Film-Grab's 'Comanche Station' image: a lone cowboy riding into a dusty town. Static camera, locked frame, film-like composition. Audio: A haunting Western theme plays softly, gradually intensifying with horse hooves and distant town sounds.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 3:</strong><pre>A 5-second video featuring Film-Grab's 'Nitram' image: a haunting close-up of a character's face. Static camera, locked frame, film-like composition. Audio: A melancholic piano melody plays softly, with distant whispers and footsteps adding to the eerie atmosphere.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 4:</strong><pre>A 5-second video showcasing Film-Grab's 'The Misfits' image: a dramatic cliffhanger. Static camera, locked frame, film-like composition. Audio: A dramatic orchestral score swells, with wind and distant landscape sounds adding depth, as the music resolves with a sense of hope.</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-92580da7-83dc-494d-a447-5ea0f2a565a0",
+  "object": "chat.completion",
+  "created": 1768312970,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"prompt1\": \"A 5-second video showcasing Film-Grab's 'Crawl' image: a massive alligator emerging from murky waters. Static camera, locked frame, film-like composition. Audio: Intense music starts with a ominous swamp ambiance, building into a frantic pace.\",\n  \"prompt2\": \"A 5-second video highlighting Film-Grab's 'Comanche Station' image: a lone cowboy riding into a dusty town. Static camera, locked frame, film-like composition. Audio: A haunting Western theme plays softly, gradually intensifying with horse hooves and distant town sounds.\",\n  \"prompt3\": \"A 5-second video featuring Film-Grab's 'Nitram' image: a haunting close-up of a character's face. Static camera, locked frame, film-like composition. Audio: A melancholic piano melody plays softly, with distant whispers and footsteps adding to the eerie atmosphere.\",\n  \"prompt4\": \"A 5-second video showcasing Film-Grab's 'The Misfits' image: a dramatic cliffhanger. Static camera, locked frame, film-like composition. Audio: A dramatic orchestral score swells, with wind and distant landscape sounds adding depth, as the music resolves with a sense of hope.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.086651112,
+    "prompt_tokens": 679,
+    "prompt_time": 0.039922557,
+    "completion_tokens": 256,
+    "completion_time": 0.498112278,
+    "total_tokens": 935,
+    "total_time": 0.538034835
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_f757f4b0bf",
+  "x_groq": {
+    "id": "req_01kevtn666fz0ttq4az63xtvks",
+    "seed": 1986857179
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 4: Video Generation</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.40</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~180s (4 clips)</div></div></div><div class="data-block config-block"><h4 style="color:#888">API Config:</h4><pre>{
+  "resolution": "480x848 (9:16)",
+  "num_frames": 201,
+  "fps": 25,
+  "duration": "8 seconds",
+  "generateAudio": true,
+  "negativePrompt": "low resolution, error, worst quality, low quality, defects, blurry, distorted"
+}</pre></div></div><div class="section"><h2>Step 5: Merge</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai FFmpeg API</div></div><div class="meta-item"><div class="label">Duration</div><div class="value">32 seconds</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.02</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~8s</div></div><div class="meta-item"><div class="label">Status</div><div class="value">Success</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input URLs:</h4><pre>Clip 1: https://v3b.fal.media/files/b/0a8a3b41/LZ5p-PD0ZJFfipzx9FtXc_ypNy5Bfo.mp4
+Clip 2: https://v3b.fal.media/files/b/0a8a3b43/lH3NLYbRkGxh9E0cE3ksy_dBJrgL4L.mp4
+Clip 3: https://v3b.fal.media/files/b/0a8a3b46/mhRSsB4_Bo-N-vEdDEHcb_VZG0PRkb.mp4
+Clip 4: https://v3b.fal.media/files/b/0a8a3b48/sv9O6VrCaZNJSKv3H_AaA_GaqvpAzp.mp4
+</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Output URL:</h4><pre>https://v3b.fal.media/files/b/0a8a3b4c/MScieneH-P7FsE7AkIP_v_merged_video.mp4</pre></div></div><div class="section"><h2>Resource Usage</h2><div class="breakdown-container"><div class="breakdown-box"><h3 style="color:#ffaa00">Cost Breakdown</h3><div class="breakdown-row"><span>Jina Reader</span><span>Free</span></div><div class="breakdown-row"><span>Groq Summary</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>~$0.0005</span></div><div class="breakdown-row"><span>fal.ai LTX-2</span><span>~$0.40</span></div><div class="breakdown-row"><span>fal.ai Merge</span><span>~$0.02</span></div><div class="breakdown-row"><span>Total</span><span>~$0.44</span></div></div><div class="breakdown-box"><h3 style="color:#4CAF50">Time Breakdown</h3><div class="breakdown-row"><span>Groq Summary</span><span>0.58s</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>0.66s</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>0.50s</span></div><div class="breakdown-row"><span>Video Generation</span><span>~180s (4 clips)</span></div><div class="breakdown-row"><span>Video Merge</span><span>~8s</span></div><div class="breakdown-row"><span>Total</span><span>~190s</span></div></div></div></div><p class="timestamp">Generated: 2026-01-13T14:04:52.805Z | Daisychain v5.2</p></div></body></html>
