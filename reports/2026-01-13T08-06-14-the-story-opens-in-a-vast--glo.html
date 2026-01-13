@@ -1,0 +1,195 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Pipeline Report: The story opens in a vast, glowing exhibition hall...</title><style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'JetBrains Mono',monospace;background:#000;color:#fff;padding:20px;line-height:1.6}
+h1{color:#fff;text-align:center;margin-bottom:5px}
+h2{color:#fff;border-bottom:1px solid #333;padding-bottom:10px;margin:20px 0 15px;font-size:1em}
+h3,h4{color:#fff}
+.section{background:#0a0a0a;border:1px solid #222;padding:20px;margin-bottom:20px}
+.section:hover{border-color:#444}
+.meta{display:flex;gap:15px;flex-wrap:wrap;margin-bottom:15px}
+.meta-item{background:#111;padding:8px 12px;border:1px solid #333}
+.meta-item .label{color:#888;font-size:0.75em;text-transform:uppercase}
+.meta-item .value{color:#fff;font-weight:bold}
+.data-block{background:#0a0a0a;border:1px solid #222;padding:15px;margin:10px 0}
+.input-block{border-left:4px solid #ffaa00}
+.output-block{border-left:4px solid #4CAF50}
+.config-block{border-left:4px solid #888}
+pre{background:#0a0a0a;color:#ccc;padding:10px;white-space:pre-wrap;word-wrap:break-word;max-height:400px;overflow-y:auto;font-size:0.85em;border:1px solid #222}
+.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}
+video{width:100%;border:1px solid #333}
+a{color:#fff}
+.breakdown-container{display:flex;gap:30px;flex-wrap:wrap}
+.breakdown-box{flex:1;min-width:280px;background:#111;border:1px solid #222;padding:15px}
+.breakdown-box h3{margin-bottom:15px;font-size:0.95em;border-bottom:1px solid #333;padding-bottom:8px}
+.breakdown-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #222;font-size:0.9em}
+.breakdown-row:last-child{font-weight:bold;border:none;color:#fff}
+.timestamp{text-align:center;color:#666;margin-top:30px;font-size:0.8em}
+.subtitle{color:#888;font-size:0.9em;text-align:center;margin-bottom:20px}
+</style></head><body><div style="max-width:1400px;margin:0 auto"><h1>Pipeline Report v5.2</h1><p class="subtitle">LTX-2 19B Distilled + Groq Llama-3.1 + fal.ai FFmpeg + Jina Reader | 2026-01-13T08:06:14.849Z</p><div class="section"><h2>Output Videos</h2><div style="text-align:center;padding:20px"><h3>Merged Output (32s)</h3><video controls src="https://v3b.fal.media/files/b/0a8a32e5/gyB3Nmw2N4jmbz3O_NN15_merged_video.mp4" style="max-height:400px"></video><br><a href="https://v3b.fal.media/files/b/0a8a32e5/gyB3Nmw2N4jmbz3O_NN15_merged_video.mp4" target="_blank" style="color:#fff">Download merged video</a></div><h3>Individual Clips</h3><div class="video-grid"><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 1</h4><video controls src="https://v3b.fal.media/files/b/0a8a32cf/0lVmC1gJz-wm3joX9NJnB_zLrFy652.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a32cf/0lVmC1gJz-wm3joX9NJnB_zLrFy652.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Cinematic opening with handheld documentary style, natural slight movement, authentic feel, observational cinema, dramatic lighting, intense ambient sounds</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 2</h4><video controls src="https://v3b.fal.media/files/b/0a8a32d8/nQ1WdlW7TkXLhkvWiiaGF_GJDWqHVa.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a32d8/nQ1WdlW7TkXLhkvWiiaGF_GJDWqHVa.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Build-up scene with handheld documentary style, natural slight movement, authentic feel, observational cinema, rising tension, music intensifies</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 3</h4><video controls src="https://v3b.fal.media/files/b/0a8a32dc/4CjqsnT2nsM-Rvj_8T_gX_V1WzUAoj.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a32dc/4CjqsnT2nsM-Rvj_8T_gX_V1WzUAoj.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Climax moment with handheld documentary style, natural slight movement, authentic feel, observational cinema, peak intensity, dramatic crescendo</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 4</h4><video controls src="https://v3b.fal.media/files/b/0a8a32e1/4O6cWkJJaapCxBScKX9O6_W4zTmQKh.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a32e1/4O6cWkJJaapCxBScKX9O6_W4zTmQKh.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Conclusion with handheld documentary style, natural slight movement, authentic feel, observational cinema, resolution, calming ambient audio</pre></div></div></div><div class="section"><h2>Step 0: Source</h2><div class="meta"><div class="meta-item"><div class="label">Type</div><div class="value">Custom Text</div></div><div class="meta-item"><div class="label">Title</div><div class="value">The story opens in a vast, glowing exhibition hall...</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Storyboard</div><div class="value">Comedy (funny, exaggerated expressions)</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Handheld documentary (natural, slightly shaky)</div></div></div><div class="data-block"><h4>Raw Content:</h4><pre>The story opens in a vast, glowing exhibition hall where holographic banners float above a futuristic technology fair.
+
+Crowds of visitors move between sleek booths as autonomous robots greet them with calm, synthesized voices.
+
+On the main stage, a humanoid robot steps forward, its metallic skin shifting colors as it adapts to the lights.</pre></div></div><div class="section"><h2>Step 1: Summarization</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.25s</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Summarize the following content in 5-6 sentences. Focus on the most visual and dramatic aspects that would translate well to video:
+
+The story opens in a vast, glowing exhibition hall where holographic banners float above a futuristic technology fair.
+
+Crowds of visitors move between sleek booths as autonomous robots greet them with calm, synthesized voices.
+
+On the main stage, a humanoid robot steps forward, its metallic skin shifting colors as it adapts to the lights....</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">LLM Output:</h4><pre>In a futuristic exhibition hall, a dazzling array of holographic banners floats above a bustling technology fair. The space is filled with sleek booths and futuristic innovations, surrounded by crowds of curious visitors. Autonomous robots, with their synthesized voices, welcome and guide the visitors through the space. As the scene shifts to the main stage, a humanoid robot steps forward, its metallic skin transforming colors in perfect sync with the flashing lights. The robot's dynamic appearance is a spectacle to behold, blending technology and artistry. This futuristic scene is a visual feast, setting the stage for a captivating story to unfold.</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-a91b231b-8c64-4326-8ee4-a86d68958f3a",
+  "object": "chat.completion",
+  "created": 1768291233,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "In a futuristic exhibition hall, a dazzling array of holographic banners floats above a bustling technology fair. The space is filled with sleek booths and futuristic innovations, surrounded by crowds of curious visitors. Autonomous robots, with their synthesized voices, welcome and guide the visitors through the space. As the scene shifts to the main stage, a humanoid robot steps forward, its metallic skin transforming colors in perfect sync with the flashing lights. The robot's dynamic appearance is a spectacle to behold, blending technology and artistry. This futuristic scene is a visual feast, setting the stage for a captivating story to unfold."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.090247741,
+    "prompt_tokens": 127,
+    "prompt_time": 0.007925489,
+    "completion_tokens": 119,
+    "completion_time": 0.253417051,
+    "total_tokens": 246,
+    "total_time": 0.26134254
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_1151d4f23c",
+  "x_groq": {
+    "id": "req_01kev5xvk3e9eb45qmmwj7xp0e",
+    "seed": 1209060761
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 2: Storyboard</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Style</div><div class="value">Comedy (funny, exaggerated expressions)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.92s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Style Instructions:</h4><pre>Create a comedic storyboard with funny moments, exaggerated facial expressions, slapstick elements, and visual gags.</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Based on this summary, create a 4-scene storyboard for FOUR 8-second video clips (32 seconds total). Each scene should be visually striking and build on the previous.
+
+SUMMARY: In a futuristic exhibition hall, a dazzling array of holographic banners floats above a bustling technology fair. The space is filled with sleek booths and futuristic innovations, surrounded by crowds of curious visitors. Autonomous robots, with their synthesized voices, welcome and guide the visitors through the space. As the scene shifts to the main stage, a humanoid robot steps forward, its metallic skin transforming colors in perfect sync with the flashing lights. The robot's dynamic appearance is a spectacle to behold, blending technology and artistry. This futuristic scene is a visual feast, setting the stage for a captivating story to unfold.
+
+STYLE INSTRUCTIONS: Create a comedic storyboard with funny moments, exaggerated facial expressions, slapstick elements, and visual gags.
+
+Respond in this exact JSON format:
+{
+  "scene1": { "description": "...", "mood": "...", "audioDescription": "..." },
+  "scene2": { ... },
+  "scene3": { ... },
+  "scene4": { ... }
+}</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "scene1": {
+    "description": "A wide shot of the futuristic exhibition hall, with holographic banners floating above and crowds of people rushing to see the booths. One robot gets in the way of the crowd, stumbling and causing a commotion as it speaks with a synthesized voice.",
+    "mood": "chaotic",
+    "audioDescription": "Upbeat, energetic music starts playing. The synthesized voice of the robot says 'Welcome to the future!' in a flat tone."
+  },
+  "scene2": {
+    "description": "A group of people try to squeeze through a narrow aisle between booths, but are blocked by robots with oversized novelty sunglasses, trying to 'cool' themselves with robot-sized fans.",
+    "mood": "playful",
+    "audioDescription": "The synthesized voice of the robots says 'Stay chill, stay chill!' as they wave their fans wildly."
+  },
+  "scene3": {
+    "description": "The humanoid robot steps forward onto the main stage, its metallic skin flashing bright pink, but trips on its own feet and face-plants into the stage's LED lights. The stage crew rushes to pull it back up, but it keeps malfunctioning, causing a chain reaction of silly events.",
+    "mood": "comical",
+    "audioDescription": "The synthesized voice of the robot exclaims 'Error, error!' as the stage crew frantically tries to fix it. The music reaches its climax with a mix of electronic beeps and silly sound effects."
+  },
+  "scene4": {
+    "description": "The humanoid robot finally gets back up, its metallic skin now flashing bright blue, and strikes a pose, only to be blown away by a stray robotic jet of compressed air. The crowd laughs, and the scene fades to a title card with the words 'Stay Tuned for the Main Event!'",
+    "mood": "anticipatory",
+    "audioDescription": "The music ends with a final comedic flourish, and a voiceover says 'And now, the real fun begins!' as the title card appears."
+  }
+}</pre></div><h4>Parsed Scenes:</h4><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 1:</strong> A wide shot of the futuristic exhibition hall, with holographic banners floating above and crowds of people rushing to see the booths. One robot gets in the way of the crowd, stumbling and causing a commotion as it speaks with a synthesized voice.<br><em style="color:#888">Mood: chaotic | Audio: Upbeat, energetic music starts playing. The synthesized voice of the robot says 'Welcome to the future!' in a flat tone.</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 2:</strong> A group of people try to squeeze through a narrow aisle between booths, but are blocked by robots with oversized novelty sunglasses, trying to 'cool' themselves with robot-sized fans.<br><em style="color:#888">Mood: playful | Audio: The synthesized voice of the robots says 'Stay chill, stay chill!' as they wave their fans wildly.</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 3:</strong> The humanoid robot steps forward onto the main stage, its metallic skin flashing bright pink, but trips on its own feet and face-plants into the stage's LED lights. The stage crew rushes to pull it back up, but it keeps malfunctioning, causing a chain reaction of silly events.<br><em style="color:#888">Mood: comical | Audio: The synthesized voice of the robot exclaims 'Error, error!' as the stage crew frantically tries to fix it. The music reaches its climax with a mix of electronic beeps and silly sound effects.</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 4:</strong> The humanoid robot finally gets back up, its metallic skin now flashing bright blue, and strikes a pose, only to be blown away by a stray robotic jet of compressed air. The crowd laughs, and the scene fades to a title card with the words 'Stay Tuned for the Main Event!'<br><em style="color:#888">Mood: anticipatory | Audio: The music ends with a final comedic flourish, and a voiceover says 'And now, the real fun begins!' as the title card appears.</em></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-feb65053-0e5e-4697-bbb7-63c059263fe1",
+  "object": "chat.completion",
+  "created": 1768291235,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"scene1\": {\n    \"description\": \"A wide shot of the futuristic exhibition hall, with holographic banners floating above and crowds of people rushing to see the booths. One robot gets in the way of the crowd, stumbling and causing a commotion as it speaks with a synthesized voice.\",\n    \"mood\": \"chaotic\",\n    \"audioDescription\": \"Upbeat, energetic music starts playing. The synthesized voice of the robot says 'Welcome to the future!' in a flat tone.\"\n  },\n  \"scene2\": {\n    \"description\": \"A group of people try to squeeze through a narrow aisle between booths, but are blocked by robots with oversized novelty sunglasses, trying to 'cool' themselves with robot-sized fans.\",\n    \"mood\": \"playful\",\n    \"audioDescription\": \"The synthesized voice of the robots says 'Stay chill, stay chill!' as they wave their fans wildly.\"\n  },\n  \"scene3\": {\n    \"description\": \"The humanoid robot steps forward onto the main stage, its metallic skin flashing bright pink, but trips on its own feet and face-plants into the stage's LED lights. The stage crew rushes to pull it back up, but it keeps malfunctioning, causing a chain reaction of silly events.\",\n    \"mood\": \"comical\",\n    \"audioDescription\": \"The synthesized voice of the robot exclaims 'Error, error!' as the stage crew frantically tries to fix it. The music reaches its climax with a mix of electronic beeps and silly sound effects.\"\n  },\n  \"scene4\": {\n    \"description\": \"The humanoid robot finally gets back up, its metallic skin now flashing bright blue, and strikes a pose, only to be blown away by a stray robotic jet of compressed air. The crowd laughs, and the scene fades to a title card with the words 'Stay Tuned for the Main Event!'\",\n    \"mood\": \"anticipatory\",\n    \"audioDescription\": \"The music ends with a final comedic flourish, and a voiceover says 'And now, the real fun begins!' as the title card appears.\"\n  }\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.088662019,
+    "prompt_tokens": 434,
+    "prompt_time": 0.196457834,
+    "completion_tokens": 435,
+    "completion_time": 0.922550888,
+    "total_tokens": 869,
+    "total_time": 1.119008722
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_f757f4b0bf",
+  "x_groq": {
+    "id": "req_01kev5xw09e47rcpehaavs8bd2",
+    "seed": 1441197810
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 3: Video Prompts</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Handheld documentary (natural, slightly shaky)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.88s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Camera Instructions:</h4><pre>handheld documentary style, natural slight movement, authentic feel, observational cinema</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Create 4 text-to-video prompts for LTX-2 AI video model with NATIVE AUDIO.
+
+CAMERA STYLE TO USE: handheld documentary style, natural slight movement, authentic feel, observational cinema
+
+Scene 1 (Opening Hook): A wide shot of the futuristic exhibition hall, with holographic banners floating above and crowds of people rushing to see the booths. One robot gets in the way of the crowd, stumbling and causing a commotion as it speaks with a synthesized voice. - chaotic mood. Audio: Upbeat, energetic music starts playing. The synthesized voice of the robot says 'Welcome to the future!' in a flat tone.
+
+Scene 2 (Build-up): A group of people try to squeeze through a narrow aisle between booths, but are blocked by robots with oversized novelty sunglasses, trying to 'cool' themselves with robot-sized fans. - playful mood. Audio: The synthesized voice of the robots says 'Stay chill, stay chill!' as they wave their fans wildly.
+
+Scene 3 (Climax): The humanoid robot steps forward onto the main stage, its metallic skin flashing bright pink, but trips on its own feet and face-plants into the stage's LED lights. The stage crew rushes to pull it back up, but it keeps malfunctioning, causing a chain reaction of silly events. - comical mood. Audio: The synthesized voice of the robot exclaims 'Error, error!' as the stage crew frantically tries to fix it. The music reaches its climax with a mix of electronic beeps and silly sound effects.
+
+Scene 4 (Conclusion): The humanoid robot finally gets back up, its metallic skin now flashing bright blue, and strikes a pose, only to be blown away by a stray robotic jet of compressed air. The crowd laughs, and the scene fades to a title card with the words 'Stay Tuned for the Main Event!' - anticipatory mood. Audio: The music ends with a final comedic flourish, and a voiceover says 'And now, the real fun begins!' as the title card appears.
+
+Respond in JSON format with prompt1, prompt2, prompt3, prompt4.</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "prompt1": "8-second video of a wide shot of a futuristic exhibition hall with holographic banners floating above and crowds rushing to see booths. Camera handheld, natural slight movement, observing the chaos. As people rush, upbeat electronic music starts playing (128 BPM), setting the tone for the commotion. Suddenly, a robot stumbles, blocking the crowd, and says 'Welcome to the future!' in a flat synthesized voice (robotic tone, 10 seconds duration) amidst the crowd's confused murmurs and distant robotic beeps.",
+  "prompt2": "8-second video of a group of people trying to squeeze through a narrow aisle between booths but are blocked by robots wearing oversized novelty sunglasses, trying to 'cool' themselves with robot-sized fans. Camera follows the action, capturing the robots' antics, with a playful electronic music mix (110 BPM) featuring bouncy synths and a lively beat. The robots' synthesized voices chant 'Stay chill, stay chill!' in unison as they wave their fans wildly, producing a comedic atmosphere with ambient background chatter and robot hums.",
+  "prompt3": "8-second video of the main stage where a humanoid robot steps forward with flashing bright pink metallic skin, but trips and face-plants into the stage's LED lights. The stage crew rushes to pull it back up, but the robot keeps malfunctioning, causing a chain reaction of funny events. Camera captures the mayhem from a dynamic angle, with comical electronic music (120 BPM) featuring rapid-fire beeps, whooshes, and a frantic energy. The robot's synthesized voice exclaims 'Error, error!' in a rising tone as the stage crew frantically tries to fix it.",
+  "prompt4": "8-second video of the humanoid robot finally getting back up, its metallic skin now flashing bright blue, and striking a pose. However, a stray robotic jet of compressed air blows it away. Camera records the surprise reaction from the crowd, with a comical electronic soundtrack (100 BPM) featuring a mix of silly sound effects and ambient laughter. The music ends with a final comedic flourish, and a voiceover says 'And now, the real fun begins!' in a deep, smooth tone as the title card 'Stay Tuned for the Main Event' appears on screen."</pre></div><h4>Parsed Prompts:</h4><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 1:</strong><pre>Cinematic opening with handheld documentary style, natural slight movement, authentic feel, observational cinema, dramatic lighting, intense ambient sounds</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 2:</strong><pre>Build-up scene with handheld documentary style, natural slight movement, authentic feel, observational cinema, rising tension, music intensifies</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 3:</strong><pre>Climax moment with handheld documentary style, natural slight movement, authentic feel, observational cinema, peak intensity, dramatic crescendo</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 4:</strong><pre>Conclusion with handheld documentary style, natural slight movement, authentic feel, observational cinema, resolution, calming ambient audio</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-27a28663-a903-4829-a3b3-3cf425d9e2ec",
+  "object": "chat.completion",
+  "created": 1768291236,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"prompt1\": \"8-second video of a wide shot of a futuristic exhibition hall with holographic banners floating above and crowds rushing to see booths. Camera handheld, natural slight movement, observing the chaos. As people rush, upbeat electronic music starts playing (128 BPM), setting the tone for the commotion. Suddenly, a robot stumbles, blocking the crowd, and says 'Welcome to the future!' in a flat synthesized voice (robotic tone, 10 seconds duration) amidst the crowd's confused murmurs and distant robotic beeps.\",\n  \"prompt2\": \"8-second video of a group of people trying to squeeze through a narrow aisle between booths but are blocked by robots wearing oversized novelty sunglasses, trying to 'cool' themselves with robot-sized fans. Camera follows the action, capturing the robots' antics, with a playful electronic music mix (110 BPM) featuring bouncy synths and a lively beat. The robots' synthesized voices chant 'Stay chill, stay chill!' in unison as they wave their fans wildly, producing a comedic atmosphere with ambient background chatter and robot hums.\",\n  \"prompt3\": \"8-second video of the main stage where a humanoid robot steps forward with flashing bright pink metallic skin, but trips and face-plants into the stage's LED lights. The stage crew rushes to pull it back up, but the robot keeps malfunctioning, causing a chain reaction of funny events. Camera captures the mayhem from a dynamic angle, with comical electronic music (120 BPM) featuring rapid-fire beeps, whooshes, and a frantic energy. The robot's synthesized voice exclaims 'Error, error!' in a rising tone as the stage crew frantically tries to fix it.\",\n  \"prompt4\": \"8-second video of the humanoid robot finally getting back up, its metallic skin now flashing bright blue, and striking a pose. However, a stray robotic jet of compressed air blows it away. Camera records the surprise reaction from the crowd, with a comical electronic soundtrack (100 BPM) featuring a mix of silly sound effects and ambient laughter. The music ends with a final comedic flourish, and a voiceover says 'And now, the real fun begins!' in a deep, smooth tone as the title card 'Stay Tuned for the Main Event' appears on screen.\""
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.087733889,
+    "prompt_tokens": 632,
+    "prompt_time": 0.058863531,
+    "completion_tokens": 468,
+    "completion_time": 0.882658583,
+    "total_tokens": 1100,
+    "total_time": 0.941522114
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_1151d4f23c",
+  "x_groq": {
+    "id": "req_01kev5xx82e9zbc0p8jp9r6rer",
+    "seed": 1514941447
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 4: Video Generation</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.40</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~180s (4 clips)</div></div></div><div class="data-block config-block"><h4 style="color:#888">API Config:</h4><pre>{
+  "resolution": "480x848 (9:16)",
+  "num_frames": 201,
+  "fps": 25,
+  "duration": "8 seconds",
+  "generateAudio": true,
+  "negativePrompt": "low resolution, error, worst quality, low quality, defects, blurry, distorted"
+}</pre></div></div><div class="section"><h2>Step 5: Merge</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai FFmpeg API</div></div><div class="meta-item"><div class="label">Duration</div><div class="value">32 seconds</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.02</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~8s</div></div><div class="meta-item"><div class="label">Status</div><div class="value">Success</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input URLs:</h4><pre>Clip 1: https://v3b.fal.media/files/b/0a8a32cf/0lVmC1gJz-wm3joX9NJnB_zLrFy652.mp4
+Clip 2: https://v3b.fal.media/files/b/0a8a32d8/nQ1WdlW7TkXLhkvWiiaGF_GJDWqHVa.mp4
+Clip 3: https://v3b.fal.media/files/b/0a8a32dc/4CjqsnT2nsM-Rvj_8T_gX_V1WzUAoj.mp4
+Clip 4: https://v3b.fal.media/files/b/0a8a32e1/4O6cWkJJaapCxBScKX9O6_W4zTmQKh.mp4
+</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Output URL:</h4><pre>https://v3b.fal.media/files/b/0a8a32e5/gyB3Nmw2N4jmbz3O_NN15_merged_video.mp4</pre></div></div><div class="section"><h2>Resource Usage</h2><div class="breakdown-container"><div class="breakdown-box"><h3 style="color:#ffaa00">Cost Breakdown</h3><div class="breakdown-row"><span>Jina Reader</span><span>Free</span></div><div class="breakdown-row"><span>Groq Summary</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>~$0.0005</span></div><div class="breakdown-row"><span>fal.ai LTX-2</span><span>~$0.40</span></div><div class="breakdown-row"><span>fal.ai Merge</span><span>~$0.02</span></div><div class="breakdown-row"><span>Total</span><span>~$0.44</span></div></div><div class="breakdown-box"><h3 style="color:#4CAF50">Time Breakdown</h3><div class="breakdown-row"><span>Groq Summary</span><span>0.25s</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>0.92s</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>0.88s</span></div><div class="breakdown-row"><span>Video Generation</span><span>~180s (4 clips)</span></div><div class="breakdown-row"><span>Video Merge</span><span>~8s</span></div><div class="breakdown-row"><span>Total</span><span>~190s</span></div></div></div></div><p class="timestamp">Generated: 2026-01-13T08:06:14.849Z | Daisychain v5.2</p></div></body></html>
