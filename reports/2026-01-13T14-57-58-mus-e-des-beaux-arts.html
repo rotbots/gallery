@@ -1,0 +1,220 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Pipeline Report: Musée des Beaux Arts</title><style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'JetBrains Mono',monospace;background:#000;color:#fff;padding:20px;line-height:1.6}
+h1{color:#fff;text-align:center;margin-bottom:5px}
+h2{color:#fff;border-bottom:1px solid #333;padding-bottom:10px;margin:20px 0 15px;font-size:1em}
+h3,h4{color:#fff}
+.section{background:#0a0a0a;border:1px solid #222;padding:20px;margin-bottom:20px}
+.section:hover{border-color:#444}
+.meta{display:flex;gap:15px;flex-wrap:wrap;margin-bottom:15px}
+.meta-item{background:#111;padding:8px 12px;border:1px solid #333}
+.meta-item .label{color:#888;font-size:0.75em;text-transform:uppercase}
+.meta-item .value{color:#fff;font-weight:bold}
+.data-block{background:#0a0a0a;border:1px solid #222;padding:15px;margin:10px 0}
+.input-block{border-left:4px solid #ffaa00}
+.output-block{border-left:4px solid #4CAF50}
+.config-block{border-left:4px solid #888}
+pre{background:#0a0a0a;color:#ccc;padding:10px;white-space:pre-wrap;word-wrap:break-word;max-height:400px;overflow-y:auto;font-size:0.85em;border:1px solid #222}
+.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}
+video{width:100%;border:1px solid #333}
+a{color:#fff}
+.breakdown-container{display:flex;gap:30px;flex-wrap:wrap}
+.breakdown-box{flex:1;min-width:280px;background:#111;border:1px solid #222;padding:15px}
+.breakdown-box h3{margin-bottom:15px;font-size:0.95em;border-bottom:1px solid #333;padding-bottom:8px}
+.breakdown-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #222;font-size:0.9em}
+.breakdown-row:last-child{font-weight:bold;border:none;color:#fff}
+.timestamp{text-align:center;color:#666;margin-top:30px;font-size:0.8em}
+.subtitle{color:#888;font-size:0.9em;text-align:center;margin-bottom:20px}
+</style></head><body><div style="max-width:1400px;margin:0 auto"><h1>Pipeline Report v5.2</h1><p class="subtitle">LTX-2 19B Distilled + Groq Llama-3.1 + fal.ai FFmpeg + Jina Reader | 2026-01-13T14:57:58.922Z</p><div class="section"><h2>Output Videos</h2><div style="text-align:center;padding:20px"><h3>Merged Output (16s)</h3><video controls src="https://v3b.fal.media/files/b/0a8a3c8a/b2_2Wnslpnk8X4NQkuEuI_merged_video.mp4" style="max-height:400px"></video><br><a href="https://v3b.fal.media/files/b/0a8a3c8a/b2_2Wnslpnk8X4NQkuEuI_merged_video.mp4" target="_blank" style="color:#fff">Download merged video</a></div><h3>Individual Clips</h3><div class="video-grid"><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 1</h4><video controls src="https://v3b.fal.media/files/b/0a8a3c7f/6r7PIOIN9XvZl2jAXAPVY_xVKuvHFq.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3c7f/6r7PIOIN9XvZl2jAXAPVY_xVKuvHFq.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A 4-second video of a person sitting at a table in a dimly lit room, with a faint image of a painting 'Icarus' in the background. The camera remains static, with a hint of a slow zoom-in. Audio: A lone, eerie piano note fades in, building a sense of foreboding.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 2</h4><video controls src="https://v3b.fal.media/files/b/0a8a3c82/U8idQ9LTulGoMrKdj7r-b_xLy9LPrk.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3c82/U8idQ9LTulGoMrKdj7r-b_xLy9LPrk.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A 4-second video of a serene landscape with no human presence, where a ploughman works in the background. A lone bird chirps in the distance. Suddenly, a boy starts falling from the sky, his trajectory frozen. The camera stays static, and no sudden movements occur. Audio: A haunting melody emerges, a mix of piano and soft strings.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 3</h4><video controls src="https://v3b.fal.media/files/b/0a8a3c85/Ot1ncJAgibPzTKpYFit6r_JL052ouH.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3c85/Ot1ncJAgibPzTKpYFit6r_JL052ouH.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A 4-second video of a frozen pond with children skating in the background. The camera remains fixed on a table with a book lying open, as if the person left it in a hurry. A gentle wind rustles the pages. Audio: A soft, melancholic piano tune gradually intensifies, foreshadowing the impending crisis.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 4</h4><video controls src="https://v3b.fal.media/files/b/0a8a3c87/nebsrGUw6n82BEco5YBmK_TcPhy9Hp.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3c87/nebsrGUw6n82BEco5YBmK_TcPhy9Hp.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">A 4-second video of a person sitting in a peaceful study, with a cup of coffee on the table. The camera pans across the room, but stays static. The person looks up, but no words are spoken. A sudden burst of sound signifies a ship sailing in the distance. Audio: The serene ambiance continues, with the gentle lapping of waves creating a soothing background sound, until a dramatic music chord interrupts it, echoing the theme of 'dreadful martyrdom'.</pre></div></div></div><div class="section"><h2>Step 0: Source</h2><div class="meta"><div class="meta-item"><div class="label">Type</div><div class="value">Custom Text</div></div><div class="meta-item"><div class="label">Title</div><div class="value">Musée des Beaux Arts</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Storyboard</div><div class="value">Custom (use your own style below)</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Custom (use your own style below)</div></div></div><div class="data-block"><h4>Raw Content:</h4><pre>Musée des Beaux Arts
+BY W. H. AUDEN
+December 1938
+About suffering they were never wrong,
+The Old Masters: how well they understood
+Its human position; how it takes place
+While someone else is eating or opening a window or just walking dully along
+
+How, when the aged are reverently, passionately waiting
+For the miraculous birth, there always must be
+Children who did not specially want it to happen, skating
+On a pond at the edge of the wood:
+They never forgot
+That even the dreadful martyrdom must run its course
+Anyhow in a corner, some untidy spot
+Where the dogs go on with their doggy life and the torturer's horse
+Scratches its innocent behind on a tree.
+
+In Brueghel's Icarus, for instance: how everything turns away
+Quite leisurely from the disaster; the ploughman may
+Have heard the splash, the forsaken cry, 
+But for him it was not an important failure; the sun shone
+As it had to on the white legs disappearing into the green
+Water; and the expensive delicate ship that must have seen
+Something amazing, a boy falling out of the sky,
+Had somewhere to get to and sailed calmly on.
+</pre></div></div><div class="section"><h2>Step 1: Summarization</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.44s</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Summarize the following content in 5-6 sentences. Focus on the most visual and dramatic aspects that would translate well to video:\n\nMusée des Beaux Arts
+BY W. H. AUDEN
+December 1938
+About suffering they were never wrong,
+The Old Masters: how well they understood
+Its human position; how it takes place
+While someone else is eating or opening a window or just walking dully along
+
+How, when the aged are reverently, passionately waiting
+For the miraculous birth, there always must be
+Children who did not specially want it to happen, skating
+On a pond at the edge of the wood:
+They never forgot
+That even the dreadful martyrdom must run its course
+Anyhow in a corner, some untidy spot
+Where the dogs go on with their doggy life and the torturer's horse
+Scratches its innocent behind on a tree.
+
+In Brueghel's Icarus, for instance: how everything turns away
+Quite leisurely from the disaster; the ploughman may
+Have heard the splash, the forsaken cry, 
+But for him it was not an important failure; the sun shone
+As it had to on the white legs disappearing into the green
+Water; and the expensive delicate ship that must have seen
+Something amazing, a boy falling out of the sky,
+Had somewhere to get to and sailed calmly on.
+...</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">LLM Output:</h4><pre>Here's a summary of the poem in 6 sentences, focusing on the most visual and dramatic aspects:
+
+The poem "Musée des Beaux Arts" by W.H. Auden describes the contrast between the chaos of human suffering and the indifference of the world around it. A dramatic image is painted of children skating on a pond, oblivious to the "dreadful martyrdom" taking place nearby. The poem then shifts to a vivid scene from Pieter Brueghel's painting "Icarus," where a boy falls from the sky and disappears into the water, but the world around him continues as if nothing has happened. The scene is set in a serene landscape, with a ploughman going about his day, the sun shining, and a ship sailing calmly on. The contrast between the drama of the fall and the tranquility of the surroundings is striking. The image of a boy plummeting to his death against a backdrop of ordinary, peaceful life is a powerful and haunting one.</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-419d39ae-ced4-4ad6-9069-f0892a0c5d2c",
+  "object": "chat.completion",
+  "created": 1768316151,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Here's a summary of the poem in 6 sentences, focusing on the most visual and dramatic aspects:\n\nThe poem \"Musée des Beaux Arts\" by W.H. Auden describes the contrast between the chaos of human suffering and the indifference of the world around it. A dramatic image is painted of children skating on a pond, oblivious to the \"dreadful martyrdom\" taking place nearby. The poem then shifts to a vivid scene from Pieter Brueghel's painting \"Icarus,\" where a boy falls from the sky and disappears into the water, but the world around him continues as if nothing has happened. The scene is set in a serene landscape, with a ploughman going about his day, the sun shining, and a ship sailing calmly on. The contrast between the drama of the fall and the tranquility of the surroundings is striking. The image of a boy plummeting to his death against a backdrop of ordinary, peaceful life is a powerful and haunting one."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.088401617,
+    "prompt_tokens": 323,
+    "prompt_time": 0.020932198,
+    "completion_tokens": 202,
+    "completion_time": 0.439851355,
+    "total_tokens": 525,
+    "total_time": 0.460783553
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kevxp99yerb89cvttm777m4a",
+    "seed": 2005916060
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 2: Storyboard</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Style</div><div class="value">Custom (use your own style below)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.61s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Style Instructions:</h4><pre>YouTube Video of a YouTuber reading the poem </pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Based on this summary, create a 4-scene storyboard for FOUR 4-second video clips (16 seconds total). Each scene should be visually striking and build on the previous.\n\nSUMMARY: Here's a summary of the poem in 6 sentences, focusing on the most visual and dramatic aspects:
+
+The poem "Musée des Beaux Arts" by W.H. Auden describes the contrast between the chaos of human suffering and the indifference of the world around it. A dramatic image is painted of children skating on a pond, oblivious to the "dreadful martyrdom" taking place nearby. The poem then shifts to a vivid scene from Pieter Brueghel's painting "Icarus," where a boy falls from the sky and disappears into the water, but the world around him continues as if nothing has happened. The scene is set in a serene landscape, with a ploughman going about his day, the sun shining, and a ship sailing calmly on. The contrast between the drama of the fall and the tranquility of the surroundings is striking. The image of a boy plummeting to his death against a backdrop of ordinary, peaceful life is a powerful and haunting one.\n\nSTYLE INSTRUCTIONS: YouTube Video of a YouTuber reading the poem \n\nRespond in this exact JSON format:\n{\n  "scene1": { "description": "...", "mood": "...", "audioDescription": "..." },\n  "scene2": { ... },\n  "scene3": { ... },\n  "scene4": { ... }\n}</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "scene1": {
+    "description": "A close-up shot of a frozen pond with children's laughter and the sound of ice skates gliding across the ice as the YouTuber's voice reads the opening lines of the poem.",
+    "mood": "whimsical",
+    "audioDescription": "Laughter and the sound of ice skates"
+  },
+  "scene2": "{
+  "scene1": {
+  "description": "A wide shot of the frozen pond with children skating, juxtaposed with a 'before and after' montage of a serene landscape turning into a dramatic scene of a boy falling from the sky.",
+  "mood": "tension",
+  "audioDescription": "The sound of ice skates and children's laughter fading into the sound of a boy falling and crashing into the water"
+  },
+  "scene2": {
+    "description": "A close-up shot of the boy falling from the sky, with the sound of a loud splash and the YouTuber's voice reading the lines describing the fall.",
+    "mood": "dramatic",
+    "audioDescription": "Sound of a boy falling and crashing into the water"
+  },
+  "scene3": {
+    "description": "A wide shot of the serene landscape with the boy's body disappearing into the water, while a ploughman continues his day, a ship sails calmly on, and the sun shines on.",
+    "mood": "haunting",
+    "audioDescription": "The sound of the ploughman's work, the ship's sail, and the boy's splashing into the water"
+  },
+  "scene4": {
+    "description": "A final close-up shot of the frozen pond, now empty and still, with only the sound of ice skates echoing in the distance.",
+    "mood": "contemplative",
+    "audioDescription": "The sound of ice skates fading into silence"
+  }
+}"</pre></div><h4>Parsed Scenes:</h4><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 1:</strong> Opening hook scene<br><em style="color:#888">Mood: dramatic | Audio: Intense music builds</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 2:</strong> Build-up scene<br><em style="color:#888">Mood: rising tension | Audio: Music intensifies</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 3:</strong> Climax scene<br><em style="color:#888">Mood: peak intensity | Audio: Dramatic crescendo</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 4:</strong> Conclusion scene<br><em style="color:#888">Mood: resolution | Audio: Resolving ambient sounds</em></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-50c63801-1cf7-4fe2-9cd7-9c13bc933261",
+  "object": "chat.completion",
+  "created": 1768316152,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"scene1\": {\n    \"description\": \"A close-up shot of a frozen pond with children's laughter and the sound of ice skates gliding across the ice as the YouTuber's voice reads the opening lines of the poem.\",\n    \"mood\": \"whimsical\",\n    \"audioDescription\": \"Laughter and the sound of ice skates\"\n  },\n  \"scene2\": \"{\n  \"scene1\": {\n  \"description\": \"A wide shot of the frozen pond with children skating, juxtaposed with a 'before and after' montage of a serene landscape turning into a dramatic scene of a boy falling from the sky.\",\n  \"mood\": \"tension\",\n  \"audioDescription\": \"The sound of ice skates and children's laughter fading into the sound of a boy falling and crashing into the water\"\n  },\n  \"scene2\": {\n    \"description\": \"A close-up shot of the boy falling from the sky, with the sound of a loud splash and the YouTuber's voice reading the lines describing the fall.\",\n    \"mood\": \"dramatic\",\n    \"audioDescription\": \"Sound of a boy falling and crashing into the water\"\n  },\n  \"scene3\": {\n    \"description\": \"A wide shot of the serene landscape with the boy's body disappearing into the water, while a ploughman continues his day, a ship sails calmly on, and the sun shines on.\",\n    \"mood\": \"haunting\",\n    \"audioDescription\": \"The sound of the ploughman's work, the ship's sail, and the boy's splashing into the water\"\n  },\n  \"scene4\": {\n    \"description\": \"A final close-up shot of the frozen pond, now empty and still, with only the sound of ice skates echoing in the distance.\",\n    \"mood\": \"contemplative\",\n    \"audioDescription\": \"The sound of ice skates fading into silence\"\n  }\n}\""
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.08852333,
+    "prompt_tokens": 507,
+    "prompt_time": 0.03564346,
+    "completion_tokens": 409,
+    "completion_time": 0.605888905,
+    "total_tokens": 916,
+    "total_time": 0.641532365
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_4387d3edbb",
+  "x_groq": {
+    "id": "req_01kevxpa00fh4reptg40h6p53j",
+    "seed": 119410157
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 3: Video Prompts</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Custom (use your own style below)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.75s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Camera Instructions:</h4><pre>static camera fixed on one person sitting at a table, in a home environment. </pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Create 4 text-to-video prompts for LTX-2 AI video model with NATIVE AUDIO.\n\nCAMERA STYLE TO USE: static camera fixed on one person sitting at a table, in a home environment. \n\nScene 1 (Opening Hook): Opening hook scene - dramatic mood. Audio: Intense music builds\n\nScene 2 (Build-up): Build-up scene - rising tension mood. Audio: Music intensifies\n\nScene 3 (Climax): Climax scene - peak intensity mood. Audio: Dramatic crescendo\n\nScene 4 (Conclusion): Conclusion scene - resolution mood. Audio: Resolving ambient sounds\n\nRespond in JSON format with prompt1, prompt2, prompt3, prompt4.</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "prompt1": "A 4-second video of a person sitting at a table in a dimly lit room, with a faint image of a painting 'Icarus' in the background. The camera remains static, with a hint of a slow zoom-in. Audio: A lone, eerie piano note fades in, building a sense of foreboding.",
+  "prompt2": "A 4-second video of a serene landscape with no human presence, where a ploughman works in the background. A lone bird chirps in the distance. Suddenly, a boy starts falling from the sky, his trajectory frozen. The camera stays static, and no sudden movements occur. Audio: A haunting melody emerges, a mix of piano and soft strings.",
+  "prompt3": "A 4-second video of a frozen pond with children skating in the background. The camera remains fixed on a table with a book lying open, as if the person left it in a hurry. A gentle wind rustles the pages. Audio: A soft, melancholic piano tune gradually intensifies, foreshadowing the impending crisis.",
+  "prompt4": "A 4-second video of a person sitting in a peaceful study, with a cup of coffee on the table. The camera pans across the room, but stays static. The person looks up, but no words are spoken. A sudden burst of sound signifies a ship sailing in the distance. Audio: The serene ambiance continues, with the gentle lapping of waves creating a soothing background sound, until a dramatic music chord interrupts it, echoing the theme of 'dreadful martyrdom'."
+}</pre></div><h4>Parsed Prompts:</h4><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 1:</strong><pre>A 4-second video of a person sitting at a table in a dimly lit room, with a faint image of a painting 'Icarus' in the background. The camera remains static, with a hint of a slow zoom-in. Audio: A lone, eerie piano note fades in, building a sense of foreboding.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 2:</strong><pre>A 4-second video of a serene landscape with no human presence, where a ploughman works in the background. A lone bird chirps in the distance. Suddenly, a boy starts falling from the sky, his trajectory frozen. The camera stays static, and no sudden movements occur. Audio: A haunting melody emerges, a mix of piano and soft strings.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 3:</strong><pre>A 4-second video of a frozen pond with children skating in the background. The camera remains fixed on a table with a book lying open, as if the person left it in a hurry. A gentle wind rustles the pages. Audio: A soft, melancholic piano tune gradually intensifies, foreshadowing the impending crisis.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 4:</strong><pre>A 4-second video of a person sitting in a peaceful study, with a cup of coffee on the table. The camera pans across the room, but stays static. The person looks up, but no words are spoken. A sudden burst of sound signifies a ship sailing in the distance. Audio: The serene ambiance continues, with the gentle lapping of waves creating a soothing background sound, until a dramatic music chord interrupts it, echoing the theme of 'dreadful martyrdom'.</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-c7fb9269-f9b8-4698-b832-e7eb434acd81",
+  "object": "chat.completion",
+  "created": 1768316153,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"prompt1\": \"A 4-second video of a person sitting at a table in a dimly lit room, with a faint image of a painting 'Icarus' in the background. The camera remains static, with a hint of a slow zoom-in. Audio: A lone, eerie piano note fades in, building a sense of foreboding.\",\n  \"prompt2\": \"A 4-second video of a serene landscape with no human presence, where a ploughman works in the background. A lone bird chirps in the distance. Suddenly, a boy starts falling from the sky, his trajectory frozen. The camera stays static, and no sudden movements occur. Audio: A haunting melody emerges, a mix of piano and soft strings.\",\n  \"prompt3\": \"A 4-second video of a frozen pond with children skating in the background. The camera remains fixed on a table with a book lying open, as if the person left it in a hurry. A gentle wind rustles the pages. Audio: A soft, melancholic piano tune gradually intensifies, foreshadowing the impending crisis.\",\n  \"prompt4\": \"A 4-second video of a person sitting in a peaceful study, with a cup of coffee on the table. The camera pans across the room, but stays static. The person looks up, but no words are spoken. A sudden burst of sound signifies a ship sailing in the distance. Audio: The serene ambiance continues, with the gentle lapping of waves creating a soothing background sound, until a dramatic music chord interrupts it, echoing the theme of 'dreadful martyrdom'.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.092587412,
+    "prompt_tokens": 581,
+    "prompt_time": 0.047931103,
+    "completion_tokens": 334,
+    "completion_time": 0.748872135,
+    "total_tokens": 915,
+    "total_time": 0.796803238
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kevxpasmerpbmxmbkv9a89sy",
+    "seed": 689007370
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 4: Video Generation</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.20</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~100s (4 clips)</div></div></div><div class="data-block config-block"><h4 style="color:#888">API Config:</h4><pre>{
+  "resolution": "480x848 (9:16)",
+  "num_frames": 101,
+  "fps": 25,
+  "duration": "4 seconds",
+  "generateAudio": true,
+  "negativePrompt": "low resolution, error, worst quality, low quality, defects, blurry, distorted"
+}</pre></div></div><div class="section"><h2>Step 5: Merge</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai FFmpeg API</div></div><div class="meta-item"><div class="label">Duration</div><div class="value">16 seconds</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.02</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~8s</div></div><div class="meta-item"><div class="label">Status</div><div class="value">Success</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input URLs:</h4><pre>Clip 1: https://v3b.fal.media/files/b/0a8a3c7f/6r7PIOIN9XvZl2jAXAPVY_xVKuvHFq.mp4\nClip 2: https://v3b.fal.media/files/b/0a8a3c82/U8idQ9LTulGoMrKdj7r-b_xLy9LPrk.mp4\nClip 3: https://v3b.fal.media/files/b/0a8a3c85/Ot1ncJAgibPzTKpYFit6r_JL052ouH.mp4\nClip 4: https://v3b.fal.media/files/b/0a8a3c87/nebsrGUw6n82BEco5YBmK_TcPhy9Hp.mp4\n</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Output URL:</h4><pre>https://v3b.fal.media/files/b/0a8a3c8a/b2_2Wnslpnk8X4NQkuEuI_merged_video.mp4</pre></div></div><div class="section"><h2>Resource Usage</h2><div class="breakdown-container"><div class="breakdown-box"><h3 style="color:#ffaa00">Cost Breakdown</h3><div class="breakdown-row"><span>Jina Reader</span><span>Free</span></div><div class="breakdown-row"><span>Groq Summary</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>~$0.0005</span></div><div class="breakdown-row"><span>fal.ai LTX-2</span><span>~$0.20</span></div><div class="breakdown-row"><span>fal.ai Merge</span><span>~$0.02</span></div><div class="breakdown-row"><span>Total</span><span>~$0.24</span></div></div><div class="breakdown-box"><h3 style="color:#4CAF50">Time Breakdown</h3><div class="breakdown-row"><span>Groq Summary</span><span>0.44s</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>0.61s</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>0.75s</span></div><div class="breakdown-row"><span>Video Generation</span><span>~100s (4 clips)</span></div><div class="breakdown-row"><span>Video Merge</span><span>~8s</span></div><div class="breakdown-row"><span>Total</span><span>~110s</span></div></div></div></div><p class="timestamp">Generated: 2026-01-13T14:57:58.922Z | Daisychain v5.2</p></div></body></html>
