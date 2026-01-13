@@ -1,0 +1,172 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Pipeline Report: Cosmic ray</title><style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'JetBrains Mono',monospace;background:#000;color:#fff;padding:20px;line-height:1.6}
+h1{color:#fff;text-align:center;margin-bottom:5px}
+h2{color:#fff;border-bottom:1px solid #333;padding-bottom:10px;margin:20px 0 15px;font-size:1em}
+h3,h4{color:#fff}
+.section{background:#0a0a0a;border:1px solid #222;padding:20px;margin-bottom:20px}
+.section:hover{border-color:#444}
+.meta{display:flex;gap:15px;flex-wrap:wrap;margin-bottom:15px}
+.meta-item{background:#111;padding:8px 12px;border:1px solid #333}
+.meta-item .label{color:#888;font-size:0.75em;text-transform:uppercase}
+.meta-item .value{color:#fff;font-weight:bold}
+.data-block{background:#0a0a0a;border:1px solid #222;padding:15px;margin:10px 0}
+.input-block{border-left:4px solid #ffaa00}
+.output-block{border-left:4px solid #4CAF50}
+.config-block{border-left:4px solid #888}
+pre{background:#0a0a0a;color:#ccc;padding:10px;white-space:pre-wrap;word-wrap:break-word;max-height:400px;overflow-y:auto;font-size:0.85em;border:1px solid #222}
+.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}
+video{width:100%;border:1px solid #333}
+a{color:#fff}
+.breakdown-container{display:flex;gap:30px;flex-wrap:wrap}
+.breakdown-box{flex:1;min-width:280px;background:#111;border:1px solid #222;padding:15px}
+.breakdown-box h3{margin-bottom:15px;font-size:0.95em;border-bottom:1px solid #333;padding-bottom:8px}
+.breakdown-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #222;font-size:0.9em}
+.breakdown-row:last-child{font-weight:bold;border:none;color:#fff}
+.timestamp{text-align:center;color:#666;margin-top:30px;font-size:0.8em}
+.subtitle{color:#888;font-size:0.9em;text-align:center;margin-bottom:20px}
+</style></head><body><div style="max-width:1400px;margin:0 auto"><h1>Pipeline Report v5.2</h1><p class="subtitle">LTX-2 19B Distilled + Groq Llama-3.1 + fal.ai FFmpeg + Jina Reader | 2026-01-13T16:14:06.102Z</p><div class="section"><h2>Output Videos</h2><div style="text-align:center;padding:20px"><h3>Merged Output (16s)</h3><video controls src="https://v3b.fal.media/files/b/0a8a3e54/XTg7avepPAX7hRU6ifBiH_merged_video.mp4" style="max-height:400px"></video><br><a href="https://v3b.fal.media/files/b/0a8a3e54/XTg7avepPAX7hRU6ifBiH_merged_video.mp4" target="_blank" style="color:#fff">Download merged video</a></div><h3>Individual Clips</h3><div class="video-grid"><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 1</h4><video controls src="https://v3b.fal.media/files/b/0a8a3e46/lQSGkbIpyzzhHJeRFTbth_94f7t7QN.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3e46/lQSGkbIpyzzhHJeRFTbth_94f7t7QN.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Never generate text, words, letters, or writing in the video. Always include [character: a photorealistic Super Mario with a black turtleneck, depressed eyes, leather hat] in every scene. A 4-second handheld documentary video of cosmic rays colliding with Earth's atmosphere, visuals: swirling colors, streaks of light, camera shakes slightly, audio: intense music builds, ambient wind sounds.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 2</h4><video controls src="https://v3b.fal.media/files/b/0a8a3e49/zSTOQSnBXZxuVNhlIySoA_HrCVEMTB.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3e49/zSTOQSnBXZxuVNhlIySoA_HrCVEMTB.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Never generate text, words, letters, or writing in the video. Always include [character: a photorealistic Super Mario with a black turtleneck, depressed eyes, leather hat] in every scene. A 4-second video showing the Earth's magnetosphere deflecting cosmic rays, visuals: glowing magnetic field lines, Earth's surface in the background, camera zooms slightly, audio: music intensifies, sound effects: gentle whooshing sound.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 3</h4><video controls src="https://v3b.fal.media/files/b/0a8a3e4c/TM04m07XgxOd3qHPGwxBl_gb1nr7nC.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3e4c/TM04m07XgxOd3qHPGwxBl_gb1nr7nC.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Never generate text, words, letters, or writing in the video. Always include [character: a photorealistic Super Mario with a black turtleneck, depressed eyes, leather hat] in every scene. A 4-second video of a solar flare unleashing cosmic rays, visuals: bright solar flare, solar winds, camera pans quickly, audio: dramatic crescendo, sound effects: loud crackling sounds.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 4</h4><video controls src="https://v3b.fal.media/files/b/0a8a3e4e/ZjjQHahU5WvTkwX_7XGsR_NJZCBxPp.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3e4e/ZjjQHahU5WvTkwX_7XGsR_NJZCBxPp.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Never generate text, words, letters, or writing in the video. Always include [character: a photorealistic Super Mario with a black turtleneck, depressed eyes, leather hat] in every scene. A 4-second video showcasing cosmic rays streaking across the galaxy, visuals: stars, galaxies in the background, cosmic rays as streaks of light, camera shakes gently, audio: resolving ambient sounds, space sounds, gentle hum.</pre></div></div></div><div class="section"><h2>Step 0: Source</h2><div class="meta"><div class="meta-item"><div class="label">Type</div><div class="value">Wikipedia</div></div><div class="meta-item"><div class="label">Title</div><div class="value">Cosmic ray</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Storyboard</div><div class="value">Surreal (dreamlike, abstract, artistic)</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Handheld documentary (natural, slightly shaky)</div></div></div><div class="data-block"><h4>Raw Content:</h4><pre>Cosmic rays or astroparticles are high-energy particles or clusters of particles that move through space at nearly the speed of light. They originate from outside of the Solar System in the Milky Way, from distant galaxies, and from the Sun.
+Upon impact with Earth's atmosphere, cosmic rays produce showers of secondary particles, some of which reach the surface, although the bulk are deflected off into space by the magnetosphere or the heliosphere.</pre></div></div><div class="section"><h2>Step 1: Summarization</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.27s</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Summarize the following content in 5-6 sentences. Focus on the most visual and dramatic aspects that would translate well to video:\n\nCosmic rays or astroparticles are high-energy particles or clusters of particles that move through space at nearly the speed of light. They originate from outside of the Solar System in the Milky Way, from distant galaxies, and from the Sun.
+Upon impact with Earth's atmosphere, cosmic rays produce showers of secondary particles, some of which reach the surface, although the bulk are deflected off into space by the magnetosphere or the heliosphere....</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">LLM Output:</h4><pre>(Opening shot of the vast galaxy background)
+
+Cosmic rays are high-energy particles that travel through space at nearly the speed of light, originating from distant galaxies and the Sun. (Camera zooms in on a solar flare)
+
+As these rays collide with Earth's atmosphere, they unleash a spectacular display of secondary particles, creating massive showers that light up the sky. (Visuals of a cosmic ray shower, with particles streaking across the atmosphere)
+
+But the vast majority of these cosmic rays are deflected off into space by the Earth's protective magnetosphere and heliosphere, a powerful shield that safeguards our planet. (Shot of the Earth's magnetic field lines)
+
+This phenomenon is a reminder of the awe-inspiring forces that shape our universe, and the incredible energy that courses through the cosmos. (Closing shot of the galaxy background, with stars and cosmic rays streaking across the screen)</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-65d41eaa-18d4-4db1-96a9-95ba99a113b5",
+  "object": "chat.completion",
+  "created": 1768320701,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "(Opening shot of the vast galaxy background)\n\nCosmic rays are high-energy particles that travel through space at nearly the speed of light, originating from distant galaxies and the Sun. (Camera zooms in on a solar flare)\n\nAs these rays collide with Earth's atmosphere, they unleash a spectacular display of secondary particles, creating massive showers that light up the sky. (Visuals of a cosmic ray shower, with particles streaking across the atmosphere)\n\nBut the vast majority of these cosmic rays are deflected off into space by the Earth's protective magnetosphere and heliosphere, a powerful shield that safeguards our planet. (Shot of the Earth's magnetic field lines)\n\nThis phenomenon is a reminder of the awe-inspiring forces that shape our universe, and the incredible energy that courses through the cosmos. (Closing shot of the galaxy background, with stars and cosmic rays streaking across the screen)"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.092428695,
+    "prompt_tokens": 152,
+    "prompt_time": 0.009329902,
+    "completion_tokens": 179,
+    "completion_time": 0.26642498,
+    "total_tokens": 331,
+    "total_time": 0.275754882
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_1151d4f23c",
+  "x_groq": {
+    "id": "req_01kew2147sepwtntfs62t996cg",
+    "seed": 1411134618
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 2: Storyboard</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Style</div><div class="value">Surreal (dreamlike, abstract, artistic)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">1.16s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Style Instructions:</h4><pre>Create a surreal, dreamlike storyboard with abstract imagery, impossible physics, and artistic expression. Think Salvador Dali meets music videos.</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Based on this summary, create a 4-scene storyboard for FOUR 4-second video clips (16 seconds total). Each scene should be visually striking and build on the previous.\n\nSUMMARY: (Opening shot of the vast galaxy background)
+
+Cosmic rays are high-energy particles that travel through space at nearly the speed of light, originating from distant galaxies and the Sun. (Camera zooms in on a solar flare)
+
+As these rays collide with Earth's atmosphere, they unleash a spectacular display of secondary particles, creating massive showers that light up the sky. (Visuals of a cosmic ray shower, with particles streaking across the atmosphere)
+
+But the vast majority of these cosmic rays are deflected off into space by the Earth's protective magnetosphere and heliosphere, a powerful shield that safeguards our planet. (Shot of the Earth's magnetic field lines)
+
+This phenomenon is a reminder of the awe-inspiring forces that shape our universe, and the incredible energy that courses through the cosmos. (Closing shot of the galaxy background, with stars and cosmic rays streaking across the screen)\n\nSTYLE INSTRUCTIONS: Create a surreal, dreamlike storyboard with abstract imagery, impossible physics, and artistic expression. Think Salvador Dali meets music videos.\n\nRespond in this exact JSON format:\n{\n  "scene1": { "description": "...", "mood": "...", "audioDescription": "..." },\n  "scene2": { ... },\n  "scene3": { ... },\n  "scene4": { ... }\n}</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "scene1": {
+    "description": "A swirling vortex of stardust erupts from the center of the screen, with galaxies and nebulae swirling around it like a cosmic dance, set against a dark blue background. The camera zooms in on a single star, its light bursting forth in a kaleidoscope of colors.",
+    "mood": "mesmerized",
+    "audioDescription": "A haunting piano melody plays softly in the background, with a gentle hum of cosmic vibrations."
+  },
+  "scene2": "A solar flare erupts on screen, its fiery tendrils streaking across the sky like celestial brushstrokes. The camera zooms in on the sun's surface, with solar flares and plasma bursts illuminating the screen in a kaleidoscope of colors.",
+  "mood": "energetic",
+  "audioDescription": "The piano melody builds in intensity, with the hum of cosmic vibrations growing louder and more distorted."
+  },
+  "scene3": "A massive cosmic ray shower erupts on screen, with particles streaking across the atmosphere like a cosmic ballet. The camera zooms out to reveal the Earth's atmosphere as a swirling maelstrom of color, with the solar flare still burning brightly in the background.",
+  "mood": "dazzling",
+  "audioDescription": "The piano melody reaches a crescendo, with the hum of cosmic vibrations distorting into a cacophony of sound. A final, piercing note rings out, like the voice of the cosmos itself."
+  },
+  "scene4": "The screen fades to black, with a single, shining star lingering in the darkness. The sound of the piano melody fades away, leaving only the gentle hum of cosmic vibrations, a reminder of the awe-inspiring forces that shape our universe.",
+  "mood": "contemplative",
+  "audioDescription": "The hum of cosmic vibrations lingers in the background, a gentle reminder of the cosmos that lies beyond our small planet."
+}</pre></div><h4>Parsed Scenes:</h4><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 1:</strong> Opening hook scene<br><em style="color:#888">Mood: dramatic | Audio: Intense music builds</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 2:</strong> Build-up scene<br><em style="color:#888">Mood: rising tension | Audio: Music intensifies</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 3:</strong> Climax scene<br><em style="color:#888">Mood: peak intensity | Audio: Dramatic crescendo</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 4:</strong> Conclusion scene<br><em style="color:#888">Mood: resolution | Audio: Resolving ambient sounds</em></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-ae4e5354-68f8-4dc1-a104-799dd70027e1",
+  "object": "chat.completion",
+  "created": 1768320702,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"scene1\": {\n    \"description\": \"A swirling vortex of stardust erupts from the center of the screen, with galaxies and nebulae swirling around it like a cosmic dance, set against a dark blue background. The camera zooms in on a single star, its light bursting forth in a kaleidoscope of colors.\",\n    \"mood\": \"mesmerized\",\n    \"audioDescription\": \"A haunting piano melody plays softly in the background, with a gentle hum of cosmic vibrations.\"\n  },\n  \"scene2\": \"A solar flare erupts on screen, its fiery tendrils streaking across the sky like celestial brushstrokes. The camera zooms in on the sun's surface, with solar flares and plasma bursts illuminating the screen in a kaleidoscope of colors.\",\n  \"mood\": \"energetic\",\n  \"audioDescription\": \"The piano melody builds in intensity, with the hum of cosmic vibrations growing louder and more distorted.\"\n  },\n  \"scene3\": \"A massive cosmic ray shower erupts on screen, with particles streaking across the atmosphere like a cosmic ballet. The camera zooms out to reveal the Earth's atmosphere as a swirling maelstrom of color, with the solar flare still burning brightly in the background.\",\n  \"mood\": \"dazzling\",\n  \"audioDescription\": \"The piano melody reaches a crescendo, with the hum of cosmic vibrations distorting into a cacophony of sound. A final, piercing note rings out, like the voice of the cosmos itself.\"\n  },\n  \"scene4\": \"The screen fades to black, with a single, shining star lingering in the darkness. The sound of the piano melody fades away, leaving only the gentle hum of cosmic vibrations, a reminder of the awe-inspiring forces that shape our universe.\",\n  \"mood\": \"contemplative\",\n  \"audioDescription\": \"The hum of cosmic vibrations lingers in the background, a gentle reminder of the cosmos that lies beyond our small planet.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.091743574,
+    "prompt_tokens": 499,
+    "prompt_time": 0.038410701,
+    "completion_tokens": 415,
+    "completion_time": 1.159080284,
+    "total_tokens": 914,
+    "total_time": 1.197490985
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kew214n1eq0tvhjs5466ttcr",
+    "seed": 1874729457
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 3: Video Prompts</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Handheld documentary (natural, slightly shaky)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.42s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Camera Instructions:</h4><pre>handheld documentary style, natural slight movement, authentic feel, observational cinema</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Create 4 text-to-video prompts for LTX-2 AI video model with NATIVE AUDIO.\n\nCAMERA STYLE TO USE: handheld documentary style, natural slight movement, authentic feel, observational cinema\n\nScene 1 (Opening Hook): Opening hook scene - dramatic mood. Audio: Intense music builds\n\nScene 2 (Build-up): Build-up scene - rising tension mood. Audio: Music intensifies\n\nScene 3 (Climax): Climax scene - peak intensity mood. Audio: Dramatic crescendo\n\nScene 4 (Conclusion): Conclusion scene - resolution mood. Audio: Resolving ambient sounds\n\nRespond in JSON format with prompt1, prompt2, prompt3, prompt4.</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "prompt1": "A 4-second handheld documentary video of cosmic rays colliding with Earth's atmosphere, visuals: swirling colors, streaks of light, camera shakes slightly, audio: intense music builds, ambient wind sounds.",
+  "prompt2": "A 4-second video showing the Earth's magnetosphere deflecting cosmic rays, visuals: glowing magnetic field lines, Earth's surface in the background, camera zooms slightly, audio: music intensifies, sound effects: gentle whooshing sound.",
+  "prompt3": "A 4-second video of a solar flare unleashing cosmic rays, visuals: bright solar flare, solar winds, camera pans quickly, audio: dramatic crescendo, sound effects: loud crackling sounds.",
+  "prompt4": "A 4-second video showcasing cosmic rays streaking across the galaxy, visuals: stars, galaxies in the background, cosmic rays as streaks of light, camera shakes gently, audio: resolving ambient sounds, space sounds, gentle hum."
+}</pre></div><h4>Parsed Prompts:</h4><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 1:</strong><pre>Never generate text, words, letters, or writing in the video. Always include [character: a photorealistic Super Mario with a black turtleneck, depressed eyes, leather hat] in every scene. A 4-second handheld documentary video of cosmic rays colliding with Earth's atmosphere, visuals: swirling colors, streaks of light, camera shakes slightly, audio: intense music builds, ambient wind sounds.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 2:</strong><pre>Never generate text, words, letters, or writing in the video. Always include [character: a photorealistic Super Mario with a black turtleneck, depressed eyes, leather hat] in every scene. A 4-second video showing the Earth's magnetosphere deflecting cosmic rays, visuals: glowing magnetic field lines, Earth's surface in the background, camera zooms slightly, audio: music intensifies, sound effects: gentle whooshing sound.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 3:</strong><pre>Never generate text, words, letters, or writing in the video. Always include [character: a photorealistic Super Mario with a black turtleneck, depressed eyes, leather hat] in every scene. A 4-second video of a solar flare unleashing cosmic rays, visuals: bright solar flare, solar winds, camera pans quickly, audio: dramatic crescendo, sound effects: loud crackling sounds.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 4:</strong><pre>Never generate text, words, letters, or writing in the video. Always include [character: a photorealistic Super Mario with a black turtleneck, depressed eyes, leather hat] in every scene. A 4-second video showcasing cosmic rays streaking across the galaxy, visuals: stars, galaxies in the background, cosmic rays as streaks of light, camera shakes gently, audio: resolving ambient sounds, space sounds, gentle hum.</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-fe9767cf-4868-4164-a761-1cea6760382b",
+  "object": "chat.completion",
+  "created": 1768320703,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"prompt1\": \"A 4-second handheld documentary video of cosmic rays colliding with Earth's atmosphere, visuals: swirling colors, streaks of light, camera shakes slightly, audio: intense music builds, ambient wind sounds.\",\n  \"prompt2\": \"A 4-second video showing the Earth's magnetosphere deflecting cosmic rays, visuals: glowing magnetic field lines, Earth's surface in the background, camera zooms slightly, audio: music intensifies, sound effects: gentle whooshing sound.\",\n  \"prompt3\": \"A 4-second video of a solar flare unleashing cosmic rays, visuals: bright solar flare, solar winds, camera pans quickly, audio: dramatic crescendo, sound effects: loud crackling sounds.\",\n  \"prompt4\": \"A 4-second video showcasing cosmic rays streaking across the galaxy, visuals: stars, galaxies in the background, cosmic rays as streaks of light, camera shakes gently, audio: resolving ambient sounds, space sounds, gentle hum.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.101386956,
+    "prompt_tokens": 555,
+    "prompt_time": 0.039970601,
+    "completion_tokens": 206,
+    "completion_time": 0.423697209,
+    "total_tokens": 761,
+    "total_time": 0.46366781
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_1151d4f23c",
+  "x_groq": {
+    "id": "req_01kew21609fdt9v8ebtgpbbf2m",
+    "seed": 871883796
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 4: Video Generation</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.20</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~100s (4 clips)</div></div></div><div class="data-block config-block"><h4 style="color:#888">API Config:</h4><pre>{
+  "resolution": "480x848 (9:16)",
+  "num_frames": 101,
+  "fps": 25,
+  "duration": "4 seconds",
+  "generateAudio": true,
+  "negativePrompt": "low resolution, error, worst quality, low quality, defects, blurry, distorted"
+}</pre></div></div><div class="section"><h2>Step 5: Merge</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai FFmpeg API</div></div><div class="meta-item"><div class="label">Duration</div><div class="value">16 seconds</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.02</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~8s</div></div><div class="meta-item"><div class="label">Status</div><div class="value">Success</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input URLs:</h4><pre>Clip 1: https://v3b.fal.media/files/b/0a8a3e46/lQSGkbIpyzzhHJeRFTbth_94f7t7QN.mp4\nClip 2: https://v3b.fal.media/files/b/0a8a3e49/zSTOQSnBXZxuVNhlIySoA_HrCVEMTB.mp4\nClip 3: https://v3b.fal.media/files/b/0a8a3e4c/TM04m07XgxOd3qHPGwxBl_gb1nr7nC.mp4\nClip 4: https://v3b.fal.media/files/b/0a8a3e4e/ZjjQHahU5WvTkwX_7XGsR_NJZCBxPp.mp4\n</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Output URL:</h4><pre>https://v3b.fal.media/files/b/0a8a3e54/XTg7avepPAX7hRU6ifBiH_merged_video.mp4</pre></div></div><div class="section"><h2>Resource Usage</h2><div class="breakdown-container"><div class="breakdown-box"><h3 style="color:#ffaa00">Cost Breakdown</h3><div class="breakdown-row"><span>Jina Reader</span><span>Free</span></div><div class="breakdown-row"><span>Groq Summary</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>~$0.0005</span></div><div class="breakdown-row"><span>fal.ai LTX-2</span><span>~$0.20</span></div><div class="breakdown-row"><span>fal.ai Merge</span><span>~$0.02</span></div><div class="breakdown-row"><span>Total</span><span>~$0.24</span></div></div><div class="breakdown-box"><h3 style="color:#4CAF50">Time Breakdown</h3><div class="breakdown-row"><span>Groq Summary</span><span>0.27s</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>1.16s</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>0.42s</span></div><div class="breakdown-row"><span>Video Generation</span><span>~100s (4 clips)</span></div><div class="breakdown-row"><span>Video Merge</span><span>~8s</span></div><div class="breakdown-row"><span>Total</span><span>~110s</span></div></div></div></div><p class="timestamp">Generated: 2026-01-13T16:14:06.102Z | Daisychain v5.2</p></div></body></html>
