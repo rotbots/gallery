@@ -1,0 +1,268 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Pipeline Report: pokemon#</title><style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'JetBrains Mono',monospace;background:#000;color:#fff;padding:20px;line-height:1.6}
+h1{color:#fff;text-align:center;margin-bottom:5px}
+h2{color:#fff;border-bottom:1px solid #333;padding-bottom:10px;margin:20px 0 15px;font-size:1em}
+h3,h4{color:#fff}
+.section{background:#0a0a0a;border:1px solid #222;padding:20px;margin-bottom:20px}
+.section:hover{border-color:#444}
+.meta{display:flex;gap:15px;flex-wrap:wrap;margin-bottom:15px}
+.meta-item{background:#111;padding:8px 12px;border:1px solid #333}
+.meta-item .label{color:#888;font-size:0.75em;text-transform:uppercase}
+.meta-item .value{color:#fff;font-weight:bold}
+.data-block{background:#0a0a0a;border:1px solid #222;padding:15px;margin:10px 0}
+.input-block{border-left:4px solid #ffaa00}
+.output-block{border-left:4px solid #4CAF50}
+.config-block{border-left:4px solid #888}
+pre{background:#0a0a0a;color:#ccc;padding:10px;white-space:pre-wrap;word-wrap:break-word;max-height:400px;overflow-y:auto;font-size:0.85em;border:1px solid #222}
+.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}
+video{width:100%;border:1px solid #333}
+a{color:#fff}
+.breakdown-container{display:flex;gap:30px;flex-wrap:wrap}
+.breakdown-box{flex:1;min-width:280px;background:#111;border:1px solid #222;padding:15px}
+.breakdown-box h3{margin-bottom:15px;font-size:0.95em;border-bottom:1px solid #333;padding-bottom:8px}
+.breakdown-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #222;font-size:0.9em}
+.breakdown-row:last-child{font-weight:bold;border:none;color:#fff}
+.timestamp{text-align:center;color:#666;margin-top:30px;font-size:0.8em}
+.subtitle{color:#888;font-size:0.9em;text-align:center;margin-bottom:20px}
+</style></head><body><div style="max-width:1400px;margin:0 auto"><h1>Pipeline Report v5.2</h1><p class="subtitle">LTX-2 19B Distilled + Groq Llama-3.1 + fal.ai FFmpeg + Jina Reader | 2026-01-13T14:05:08.661Z</p><div class="section"><h2>Output Videos</h2><div style="text-align:center;padding:20px"><h3>Merged Output (32s)</h3><video controls src="https://v3b.fal.media/files/b/0a8a3b4e/g7zHzUCIEawts0ePrnYjR_merged_video.mp4" style="max-height:400px"></video><br><a href="https://v3b.fal.media/files/b/0a8a3b4e/g7zHzUCIEawts0ePrnYjR_merged_video.mp4" target="_blank" style="color:#fff">Download merged video</a></div><h3>Individual Clips</h3><div class="video-grid"><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 1</h4><video controls src="https://v3b.fal.media/files/b/0a8a3b42/NlNldOnZePNi9v_TuVS6K_AtRPi5S1.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3b42/NlNldOnZePNi9v_TuVS6K_AtRPi5S1.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Create a 4-second video of a child's eyes widening as they watch a Pokémon game on a TV screen. The camera zooms in on their face, showing their shocked expression. Suddenly, the TV screen flickers and displays an eerie, ancient forest with glowing creatures. The audio shifts from cheerful, upbeat music to ominous, pulsing electronic beats and an unsettling whispering chant.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 2</h4><video controls src="https://v3b.fal.media/files/b/0a8a3b45/y2jndB_iAnMbwiu6x_pyi_dC1JrJYP.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3b45/y2jndB_iAnMbwiu6x_pyi_dC1JrJYP.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Produce an 8-second video of a shelf filled with Pokémon plushies and figurines, slowly rotating to reveal a menacing, glowing screen displaying a battle scene. The camera pans out, showcasing the shelf's eerie atmosphere. The audio starts with fast-paced electronic music, gradually adding nostalgic, childlike sounds and eerie whispers, hinting at the game's dark undertones.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 3</h4><video controls src="https://v3b.fal.media/files/b/0a8a3b47/oZsOfueV9adPA_yCX14O5_Ry9K7ZAh.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3b47/oZsOfueV9adPA_yCX14O5_Ry9K7ZAh.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Generate an 8-second video of a dark alleyway with flickering streetlights, where a person is seen staring at their phone, a Pokémon game on the screen. The camera zooms out to reveal a cityscape as ominous, heavy drums echo through a haunting, atmospheric soundscape. The audio builds tension and foreboding, while the city lights seem to pulse in time with the music.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 4</h4><video controls src="https://v3b.fal.media/files/b/0a8a3b4a/Ge3RjykT3NuU9DnyN2nJL_QCNMNhRr.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3b4a/Ge3RjykT3NuU9DnyN2nJL_QCNMNhRr.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">Create an 8-second video of a mysterious, abandoned room with only a faint, glowing TV screen in the center. The TV displays a Pokémon game, as ambient, ethereal music fades into the distance. The camera pans out to reveal the room's eerie atmosphere, and the audio leaves the viewer with a lasting sense of unease and introspection, as if they're watching a doorway to a sinister realm.</pre></div></div></div><div class="section"><h2>Step 0: Source</h2><div class="meta"><div class="meta-item"><div class="label">Type</div><div class="value">News Article URL</div></div><div class="meta-item"><div class="label">Title</div><div class="value">pokemon#</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Storyboard</div><div class="value">Cinematic (dramatic, professional film look)</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Zoom in/out (dramatic reveal)</div></div></div><div class="data-block"><h4>Raw Content:</h4><pre>Title: Are Pokemon Demons? - Important Facts for Parents to Know — The Spiritual Warfare Blog
+
+URL Source: https://www.spiritualwarfare.blog/pokemon
+
+Markdown Content:
+Pokémon is huge fad that is reemerging with the insanely popular Pokémon Go mobile app/game. No doubt, the technology and gaming is AMAZING. In writing this, I am not discounting the many practical positive things that are coming out of this gaming revolution... but I am also not engaging the many practical safety concerns that are emerging.
+
+**My focus is on the spiritual concerns of Pokémon**...which many Western/American Christians are not aware of...
+
+**This post is not meant to create debate or argument.**The spirit of this post is not paranoid, arrogant, self-righteous (I've played the old school version), or condescending. The hope of this post is to inform Christians of some of the backgrounds to games, movies, TV shows, etc. like Pokémon so that they think more biblically about the decisions they make.
+
+Ultimately I understand that Pokémon is just designed as a game or form of entertainment. But it is not merely neutral territory, there is a demonic connection. [Here is a more detailed description](https://www.spiritualwarfare.blog/pokemon#) that you may find helpful.
+
+_So here are some of my personal, basic Christian concerns with Pokémon:_
+
+**Pokémon derives from and promotes an animistic worldview.**
+
+*   A worldview is the lens through which you look at and interpret the world.
+
+*   Animism (spiritism/tribalism) is foreign to many Westerners/Americans but dominates the majority worldview.
+
+*   Animism is “the belief that personal spiritual beings and impersonal spiritual forces have power over human affairs, and consequently, that human beings must discover what beings and forces are influencing them in order to determine future action and, frequently, to manipulate their power” (Gailyn Van Rheenen, _Communicating Christ in Animistic Contexts_, 20).
+
+*   If you study more about animism/tribalism/spiritism you will see the connections more and more clearly with the game of Pokémon.
+
+    *   Animism focuses on BEINGS (gods, ancestors, ghosts, angels, nature spirits, spirit guides) and FORCES (magic, astrology, witchcraft, the evil eye, etc.) that influence the seen world.
+
+    *   Animism believes the seen world is clearly and definitively related to the unseen world, so animists are often constantly in fear of the powers behind events.
+
+    *   Power is the essence of animism, especially power to bring about evil.
+
+    *   Discovering, determining, and warding off the powers is critical in the animistic worldview.
+
+**Pokémon advocates for practices identical to those used by sorcerers, necromancers, mediums, psychics, spirit/ghost hunters, and shamans.**These practices are clearly prohibited across the Bible, in both the Old and New Testaments, and across church history. These practices are interwoven into the game as the main feature, focus, and goal.
+
+1. Controlling and capturing Pokémon to do your will.
+
+2. Summoning and attracting Pokémon using incense items and lure modules.
+
+3. Actively searching for Pokémon with time, energy, resources, and money (pokécoins).
+
+4. Seeking and using factions and battles between Pokémon.
+
+5. Using potions or revives to heal and restore Pokémons to life.
+
+6. Types and Categories of Pokémons (fire, electric, ghost, poison, psychic) with correlating supernatural powers.
+
+*   Just try substituting the concept of "demon" or "spirit" or "ghost" in the place of Pokémon in the above descriptions and you will see the obvious connections with animism.
+
+"BUT THIS IS ONLY A GAME!" you may be thinking or shouting at your screen... "Don't be a killjoy!"... "These are just cartoons!"...
+
+**_Well here are my thoughts._**
+
+**1. Spiritual Warfare is real.** Pokémon depicts a false, but widely believed and popularized version of the spirit world. Playing and investing in such games just deepens and broadens the worldview of animism</pre></div></div><div class="section"><h2>Step 1: Summarization</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.35s</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Summarize the following content in 5-6 sentences. Focus on the most visual and dramatic aspects that would translate well to video:
+
+Title: Are Pokemon Demons? - Important Facts for Parents to Know — The Spiritual Warfare Blog
+
+URL Source: https://www.spiritualwarfare.blog/pokemon
+
+Markdown Content:
+Pokémon is huge fad that is reemerging with the insanely popular Pokémon Go mobile app/game. No doubt, the technology and gaming is AMAZING. In writing this, I am not discounting the many practical positive things that are coming out of this gaming revolution... but I am also not engaging the many practical safety concerns that are emerging.
+
+**My focus is on the spiritual concerns of Pokémon**...which many Western/American Christians are not aware of...
+
+**This post is not meant to create debate or argument.**The spirit of this post is not paranoid, arrogant, self-righteous (I've played the old school version), or condescending. The hope of this post is to inform Christians of some of the backgrounds to games, movies, TV shows, etc. like Pokémon so that they think more biblically about the decisions they make.
+
+Ultimately I understand that Pokémon is just designed as a game or form of entertainment. But it is not merely neutral territory, there is a demonic connection. [Here is a more detailed description](https://www.spiritualwarfare.blog/pokemon#) that you may find helpful.
+
+_So here are some of my personal, basic Christian concerns with Pokémon:_
+
+**Pokémon derives from and promotes an animistic worldview.**
+
+*   A worldview is the lens through which you look at and interpret the world.
+
+*   Animism (spiritism/tribalism) is foreign to many Westerners/Americans but dominates the majority worldview.
+
+*   Animism is “the belief that personal spiritual beings and impersonal spiritual forces have power over human affairs, and consequently, that human beings must discover what beings and forces are influencing them in order to determine future action and, frequently, to manipulate their power” (Gailyn Van Rheenen, _Communicating Christ in Animistic Contexts_, 20).
+
+*   If you study more about animism/tr...</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">LLM Output:</h4><pre>Here's a 6-sentence summary of the content, focusing on the most visual and dramatic aspects that would translate well to video:
+
+Imagine a world where you capture and control powerful creatures, summoning them to do your will, and battling them in a quest for dominance. But behind the innocent-looking Pokémon games and apps, lies a darker reality - a world of animistic spiritualism, where the lines between the seen and unseen are blurred. The Pokémon franchise advocates for practices that echo those of sorcerers, necromancers, and shamans, forbidden by the Bible and church history. Players are encouraged to use potions, revives, and incense to manipulate and control these creatures, blurring the lines between reality and fantasy. As players delve deeper into the world of Pokémon, they are steeped in a worldview that sees spiritual powers as a real force to be reckoned with, and themselves as the masters of their own destiny. Is this just a harmless game, or a doorway to a more sinister realm of spiritual warfare?</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-e0d4a162-9eca-4010-be89-547cd7ade746",
+  "object": "chat.completion",
+  "created": 1768312984,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Here's a 6-sentence summary of the content, focusing on the most visual and dramatic aspects that would translate well to video:\n\nImagine a world where you capture and control powerful creatures, summoning them to do your will, and battling them in a quest for dominance. But behind the innocent-looking Pokémon games and apps, lies a darker reality - a world of animistic spiritualism, where the lines between the seen and unseen are blurred. The Pokémon franchise advocates for practices that echo those of sorcerers, necromancers, and shamans, forbidden by the Bible and church history. Players are encouraged to use potions, revives, and incense to manipulate and control these creatures, blurring the lines between reality and fantasy. As players delve deeper into the world of Pokémon, they are steeped in a worldview that sees spiritual powers as a real force to be reckoned with, and themselves as the masters of their own destiny. Is this just a harmless game, or a doorway to a more sinister realm of spiritual warfare?"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.097351827,
+    "prompt_tokens": 936,
+    "prompt_time": 0.057727928,
+    "completion_tokens": 209,
+    "completion_time": 0.354569654,
+    "total_tokens": 1145,
+    "total_time": 0.412297582
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_1151d4f23c",
+  "x_groq": {
+    "id": "req_01kevtnmm3fezv3c6qxrg2pysc",
+    "seed": 1031064908
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 2: Storyboard</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Style</div><div class="value">Cinematic (dramatic, professional film look)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.79s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Style Instructions:</h4><pre>Create a professional cinematic storyboard with dramatic lighting, careful composition, emotional depth, and movie-quality visual storytelling. Think Hollywood blockbuster.</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Based on this summary, create a 4-scene storyboard for FOUR 8-second video clips (32 seconds total). Each scene should be visually striking and build on the previous.
+
+SUMMARY: Here's a 6-sentence summary of the content, focusing on the most visual and dramatic aspects that would translate well to video:
+
+Imagine a world where you capture and control powerful creatures, summoning them to do your will, and battling them in a quest for dominance. But behind the innocent-looking Pokémon games and apps, lies a darker reality - a world of animistic spiritualism, where the lines between the seen and unseen are blurred. The Pokémon franchise advocates for practices that echo those of sorcerers, necromancers, and shamans, forbidden by the Bible and church history. Players are encouraged to use potions, revives, and incense to manipulate and control these creatures, blurring the lines between reality and fantasy. As players delve deeper into the world of Pokémon, they are steeped in a worldview that sees spiritual powers as a real force to be reckoned with, and themselves as the masters of their own destiny. Is this just a harmless game, or a doorway to a more sinister realm of spiritual warfare?
+
+STYLE INSTRUCTIONS: Create a professional cinematic storyboard with dramatic lighting, careful composition, emotional depth, and movie-quality visual storytelling. Think Hollywood blockbuster.
+
+Respond in this exact JSON format:
+{
+  "scene1": { "description": "...", "mood": "...", "audioDescription": "..." },
+  "scene2": { ... },
+  "scene3": { ... },
+  "scene4": { ... }
+}</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "scene1": {
+    "description": "A darkened room with a faint, eerie glow emanating from a glowing screen displaying a Pokémon game. Players' hands, illuminated by the screen's glow, move swiftly and purposefully, capturing and battling creatures. The camera pans out, revealing a collection of Pokémon plushies and figurines on a nearby shelf, watching over the scene with an air of unease.",
+    "mood": "Ominous",
+    "audioDescription": "Distorted, pulsing electronic beats with a faint, whispery chant in the background, setting an unsettling tone."
+  },
+  "scene2": "A close-up shot of a child's face, lost in the world of Pokémon, eyes gleaming with excitement as they play on their handheld console. The camera then cuts to a montage of Pokémon battles, trainers summoning creatures with potions, revives, and incense, the pace frenetic and energetic.",
+  "scene2": {
+    "mood": "Intriguing",
+    "audioDescription": "Fast-paced electronic music, interspersed with nostalgic, childlike sounds and eerie whispers, hinting at the dark undertones of the game."
+  },
+  "scene3": "A dramatic, high-contrast shot of a group of people gathered around a table, their faces illuminated by a single, flickering candle. They hold various Pokémon cards, their eyes filled with a sense of determination and foreboding. The camera pans out, revealing a hidden, ancient-looking symbol etched into the table's surface.",
+  "scene3": {
+    "mood": "Suspenseful",
+    "audioDescription": "Heavy, ominous drums echoing through a haunting, atmospheric soundscape, building tension and foreboding."
+  },
+  "scene4": "A final, striking shot of a person, silhouetted against a dark, mysterious background, holding a glowing screen displaying a Pokémon game. The camera zooms in on the screen, revealing a hidden message, a warning, or a question, leaving the viewer to ponder the true nature of the world of Pokémon.",
+  "scene4": {
+    "mood": "Mysterious",
+    "audioDescription": "A haunting, ethereal melody fading into the distance, leaving the viewer with a lasting sense of unease and introspection."
+  }
+}</pre></div><h4>Parsed Scenes:</h4><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 1:</strong> A darkened room with a faint, eerie glow emanating from a glowing screen displaying a Pokémon game. Players' hands, illuminated by the screen's glow, move swiftly and purposefully, capturing and battling creatures. The camera pans out, revealing a collection of Pokémon plushies and figurines on a nearby shelf, watching over the scene with an air of unease.<br><em style="color:#888">Mood: Ominous | Audio: Distorted, pulsing electronic beats with a faint, whispery chant in the background, setting an unsettling tone.</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 2:</strong> <br><em style="color:#888">Mood: Intriguing | Audio: Fast-paced electronic music, interspersed with nostalgic, childlike sounds and eerie whispers, hinting at the dark undertones of the game.</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 3:</strong> <br><em style="color:#888">Mood: Suspenseful | Audio: Heavy, ominous drums echoing through a haunting, atmospheric soundscape, building tension and foreboding.</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 4:</strong> <br><em style="color:#888">Mood: Mysterious | Audio: A haunting, ethereal melody fading into the distance, leaving the viewer with a lasting sense of unease and introspection.</em></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-b590f571-5c70-4bd1-b638-3b570682e343",
+  "object": "chat.completion",
+  "created": 1768312985,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"scene1\": {\n    \"description\": \"A darkened room with a faint, eerie glow emanating from a glowing screen displaying a Pokémon game. Players' hands, illuminated by the screen's glow, move swiftly and purposefully, capturing and battling creatures. The camera pans out, revealing a collection of Pokémon plushies and figurines on a nearby shelf, watching over the scene with an air of unease.\",\n    \"mood\": \"Ominous\",\n    \"audioDescription\": \"Distorted, pulsing electronic beats with a faint, whispery chant in the background, setting an unsettling tone.\"\n  },\n  \"scene2\": \"A close-up shot of a child's face, lost in the world of Pokémon, eyes gleaming with excitement as they play on their handheld console. The camera then cuts to a montage of Pokémon battles, trainers summoning creatures with potions, revives, and incense, the pace frenetic and energetic.\",\n  \"scene2\": {\n    \"mood\": \"Intriguing\",\n    \"audioDescription\": \"Fast-paced electronic music, interspersed with nostalgic, childlike sounds and eerie whispers, hinting at the dark undertones of the game.\"\n  },\n  \"scene3\": \"A dramatic, high-contrast shot of a group of people gathered around a table, their faces illuminated by a single, flickering candle. They hold various Pokémon cards, their eyes filled with a sense of determination and foreboding. The camera pans out, revealing a hidden, ancient-looking symbol etched into the table's surface.\",\n  \"scene3\": {\n    \"mood\": \"Suspenseful\",\n    \"audioDescription\": \"Heavy, ominous drums echoing through a haunting, atmospheric soundscape, building tension and foreboding.\"\n  },\n  \"scene4\": \"A final, striking shot of a person, silhouetted against a dark, mysterious background, holding a glowing screen displaying a Pokémon game. The camera zooms in on the screen, revealing a hidden message, a warning, or a question, leaving the viewer to ponder the true nature of the world of Pokémon.\",\n  \"scene4\": {\n    \"mood\": \"Mysterious\",\n    \"audioDescription\": \"A haunting, ethereal melody fading into the distance, leaving the viewer with a lasting sense of unease and introspection.\"\n  }\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.099480384,
+    "prompt_tokens": 528,
+    "prompt_time": 0.038884179,
+    "completion_tokens": 486,
+    "completion_time": 0.789685984,
+    "total_tokens": 1014,
+    "total_time": 0.828570163
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_4387d3edbb",
+  "x_groq": {
+    "id": "req_01kevtnn7je3f8gky3wmyz2sty",
+    "seed": 1270088088
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 3: Video Prompts</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Zoom in/out (dramatic reveal)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.58s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Camera Instructions:</h4><pre>dramatic zoom movement, push in or pull out, revealing shot, cinematic zoom</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Create 4 text-to-video prompts for LTX-2 AI video model with NATIVE AUDIO.
+
+CAMERA STYLE TO USE: dramatic zoom movement, push in or pull out, revealing shot, cinematic zoom
+
+Scene 1 (Opening Hook): A darkened room with a faint, eerie glow emanating from a glowing screen displaying a Pokémon game. Players' hands, illuminated by the screen's glow, move swiftly and purposefully, capturing and battling creatures. The camera pans out, revealing a collection of Pokémon plushies and figurines on a nearby shelf, watching over the scene with an air of unease. - Ominous mood. Audio: Distorted, pulsing electronic beats with a faint, whispery chant in the background, setting an unsettling tone.
+
+Scene 2 (Build-up): N/A - Intriguing mood. Audio: Fast-paced electronic music, interspersed with nostalgic, childlike sounds and eerie whispers, hinting at the dark undertones of the game.
+
+Scene 3 (Climax): N/A - Suspenseful mood. Audio: Heavy, ominous drums echoing through a haunting, atmospheric soundscape, building tension and foreboding.
+
+Scene 4 (Conclusion): N/A - Mysterious mood. Audio: A haunting, ethereal melody fading into the distance, leaving the viewer with a lasting sense of unease and introspection.
+
+Respond in JSON format with prompt1, prompt2, prompt3, prompt4.</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "prompt1": "Create a 4-second video of a child's eyes widening as they watch a Pokémon game on a TV screen. The camera zooms in on their face, showing their shocked expression. Suddenly, the TV screen flickers and displays an eerie, ancient forest with glowing creatures. The audio shifts from cheerful, upbeat music to ominous, pulsing electronic beats and an unsettling whispering chant.",
+  "prompt2": "Produce an 8-second video of a shelf filled with Pokémon plushies and figurines, slowly rotating to reveal a menacing, glowing screen displaying a battle scene. The camera pans out, showcasing the shelf's eerie atmosphere. The audio starts with fast-paced electronic music, gradually adding nostalgic, childlike sounds and eerie whispers, hinting at the game's dark undertones.",
+  "prompt3": "Generate an 8-second video of a dark alleyway with flickering streetlights, where a person is seen staring at their phone, a Pokémon game on the screen. The camera zooms out to reveal a cityscape as ominous, heavy drums echo through a haunting, atmospheric soundscape. The audio builds tension and foreboding, while the city lights seem to pulse in time with the music.",
+  "prompt4": "Create an 8-second video of a mysterious, abandoned room with only a faint, glowing TV screen in the center. The TV displays a Pokémon game, as ambient, ethereal music fades into the distance. The camera pans out to reveal the room's eerie atmosphere, and the audio leaves the viewer with a lasting sense of unease and introspection, as if they're watching a doorway to a sinister realm."
+}</pre></div><h4>Parsed Prompts:</h4><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 1:</strong><pre>Create a 4-second video of a child's eyes widening as they watch a Pokémon game on a TV screen. The camera zooms in on their face, showing their shocked expression. Suddenly, the TV screen flickers and displays an eerie, ancient forest with glowing creatures. The audio shifts from cheerful, upbeat music to ominous, pulsing electronic beats and an unsettling whispering chant.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 2:</strong><pre>Produce an 8-second video of a shelf filled with Pokémon plushies and figurines, slowly rotating to reveal a menacing, glowing screen displaying a battle scene. The camera pans out, showcasing the shelf's eerie atmosphere. The audio starts with fast-paced electronic music, gradually adding nostalgic, childlike sounds and eerie whispers, hinting at the game's dark undertones.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 3:</strong><pre>Generate an 8-second video of a dark alleyway with flickering streetlights, where a person is seen staring at their phone, a Pokémon game on the screen. The camera zooms out to reveal a cityscape as ominous, heavy drums echo through a haunting, atmospheric soundscape. The audio builds tension and foreboding, while the city lights seem to pulse in time with the music.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 4:</strong><pre>Create an 8-second video of a mysterious, abandoned room with only a faint, glowing TV screen in the center. The TV displays a Pokémon game, as ambient, ethereal music fades into the distance. The camera pans out to reveal the room's eerie atmosphere, and the audio leaves the viewer with a lasting sense of unease and introspection, as if they're watching a doorway to a sinister realm.</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-29a3d102-3207-4176-88e0-7cf16b25d1ca",
+  "object": "chat.completion",
+  "created": 1768312986,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"prompt1\": \"Create a 4-second video of a child's eyes widening as they watch a Pokémon game on a TV screen. The camera zooms in on their face, showing their shocked expression. Suddenly, the TV screen flickers and displays an eerie, ancient forest with glowing creatures. The audio shifts from cheerful, upbeat music to ominous, pulsing electronic beats and an unsettling whispering chant.\",\n  \"prompt2\": \"Produce an 8-second video of a shelf filled with Pokémon plushies and figurines, slowly rotating to reveal a menacing, glowing screen displaying a battle scene. The camera pans out, showcasing the shelf's eerie atmosphere. The audio starts with fast-paced electronic music, gradually adding nostalgic, childlike sounds and eerie whispers, hinting at the game's dark undertones.\",\n  \"prompt3\": \"Generate an 8-second video of a dark alleyway with flickering streetlights, where a person is seen staring at their phone, a Pokémon game on the screen. The camera zooms out to reveal a cityscape as ominous, heavy drums echo through a haunting, atmospheric soundscape. The audio builds tension and foreboding, while the city lights seem to pulse in time with the music.\",\n  \"prompt4\": \"Create an 8-second video of a mysterious, abandoned room with only a faint, glowing TV screen in the center. The TV displays a Pokémon game, as ambient, ethereal music fades into the distance. The camera pans out to reveal the room's eerie atmosphere, and the audio leaves the viewer with a lasting sense of unease and introspection, as if they're watching a doorway to a sinister realm.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.086693491,
+    "prompt_tokens": 736,
+    "prompt_time": 0.045348184,
+    "completion_tokens": 342,
+    "completion_time": 0.579514886,
+    "total_tokens": 1078,
+    "total_time": 0.62486307
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_f757f4b0bf",
+  "x_groq": {
+    "id": "req_01kevtnp6fe3ttrh4fjmr8n0ny",
+    "seed": 846306271
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 4: Video Generation</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.40</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~180s (4 clips)</div></div></div><div class="data-block config-block"><h4 style="color:#888">API Config:</h4><pre>{
+  "resolution": "480x848 (9:16)",
+  "num_frames": 201,
+  "fps": 25,
+  "duration": "8 seconds",
+  "generateAudio": true,
+  "negativePrompt": "low resolution, error, worst quality, low quality, defects, blurry, distorted"
+}</pre></div></div><div class="section"><h2>Step 5: Merge</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai FFmpeg API</div></div><div class="meta-item"><div class="label">Duration</div><div class="value">32 seconds</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.02</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~8s</div></div><div class="meta-item"><div class="label">Status</div><div class="value">Success</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input URLs:</h4><pre>Clip 1: https://v3b.fal.media/files/b/0a8a3b42/NlNldOnZePNi9v_TuVS6K_AtRPi5S1.mp4
+Clip 2: https://v3b.fal.media/files/b/0a8a3b45/y2jndB_iAnMbwiu6x_pyi_dC1JrJYP.mp4
+Clip 3: https://v3b.fal.media/files/b/0a8a3b47/oZsOfueV9adPA_yCX14O5_Ry9K7ZAh.mp4
+Clip 4: https://v3b.fal.media/files/b/0a8a3b4a/Ge3RjykT3NuU9DnyN2nJL_QCNMNhRr.mp4
+</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Output URL:</h4><pre>https://v3b.fal.media/files/b/0a8a3b4e/g7zHzUCIEawts0ePrnYjR_merged_video.mp4</pre></div></div><div class="section"><h2>Resource Usage</h2><div class="breakdown-container"><div class="breakdown-box"><h3 style="color:#ffaa00">Cost Breakdown</h3><div class="breakdown-row"><span>Jina Reader</span><span>Free</span></div><div class="breakdown-row"><span>Groq Summary</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>~$0.0005</span></div><div class="breakdown-row"><span>fal.ai LTX-2</span><span>~$0.40</span></div><div class="breakdown-row"><span>fal.ai Merge</span><span>~$0.02</span></div><div class="breakdown-row"><span>Total</span><span>~$0.44</span></div></div><div class="breakdown-box"><h3 style="color:#4CAF50">Time Breakdown</h3><div class="breakdown-row"><span>Groq Summary</span><span>0.35s</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>0.79s</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>0.58s</span></div><div class="breakdown-row"><span>Video Generation</span><span>~180s (4 clips)</span></div><div class="breakdown-row"><span>Video Merge</span><span>~8s</span></div><div class="breakdown-row"><span>Total</span><span>~190s</span></div></div></div></div><p class="timestamp">Generated: 2026-01-13T14:05:08.661Z | Daisychain v5.2</p></div></body></html>
