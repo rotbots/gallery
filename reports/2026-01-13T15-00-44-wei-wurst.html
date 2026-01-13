@@ -1,0 +1,182 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Pipeline Report: Weißwurst</title><style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'JetBrains Mono',monospace;background:#000;color:#fff;padding:20px;line-height:1.6}
+h1{color:#fff;text-align:center;margin-bottom:5px}
+h2{color:#fff;border-bottom:1px solid #333;padding-bottom:10px;margin:20px 0 15px;font-size:1em}
+h3,h4{color:#fff}
+.section{background:#0a0a0a;border:1px solid #222;padding:20px;margin-bottom:20px}
+.section:hover{border-color:#444}
+.meta{display:flex;gap:15px;flex-wrap:wrap;margin-bottom:15px}
+.meta-item{background:#111;padding:8px 12px;border:1px solid #333}
+.meta-item .label{color:#888;font-size:0.75em;text-transform:uppercase}
+.meta-item .value{color:#fff;font-weight:bold}
+.data-block{background:#0a0a0a;border:1px solid #222;padding:15px;margin:10px 0}
+.input-block{border-left:4px solid #ffaa00}
+.output-block{border-left:4px solid #4CAF50}
+.config-block{border-left:4px solid #888}
+pre{background:#0a0a0a;color:#ccc;padding:10px;white-space:pre-wrap;word-wrap:break-word;max-height:400px;overflow-y:auto;font-size:0.85em;border:1px solid #222}
+.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}
+video{width:100%;border:1px solid #333}
+a{color:#fff}
+.breakdown-container{display:flex;gap:30px;flex-wrap:wrap}
+.breakdown-box{flex:1;min-width:280px;background:#111;border:1px solid #222;padding:15px}
+.breakdown-box h3{margin-bottom:15px;font-size:0.95em;border-bottom:1px solid #333;padding-bottom:8px}
+.breakdown-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #222;font-size:0.9em}
+.breakdown-row:last-child{font-weight:bold;border:none;color:#fff}
+.timestamp{text-align:center;color:#666;margin-top:30px;font-size:0.8em}
+.subtitle{color:#888;font-size:0.9em;text-align:center;margin-bottom:20px}
+</style></head><body><div style="max-width:1400px;margin:0 auto"><h1>Pipeline Report v5.2</h1><p class="subtitle">LTX-2 19B Distilled + Groq Llama-3.1 + fal.ai FFmpeg + Jina Reader | 2026-01-13T15:00:44.537Z</p><div class="section"><h2>Output Videos</h2><div style="text-align:center;padding:20px"><h3>Merged Output (16s)</h3><video controls src="https://v3b.fal.media/files/b/0a8a3c9c/ujGiJVY_BJP1mKWY8y7sw_merged_video.mp4" style="max-height:400px"></video><br><a href="https://v3b.fal.media/files/b/0a8a3c9c/ujGiJVY_BJP1mKWY8y7sw_merged_video.mp4" target="_blank" style="color:#fff">Download merged video</a></div><h3>Individual Clips</h3><div class="video-grid"><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 1</h4><video controls src="https://v3b.fal.media/files/b/0a8a3c8f/1IjC1r8E23Kx79pTq3I14_CQw1YYYq.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3c8f/1IjC1r8E23Kx79pTq3I14_CQw1YYYq.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">4-second opening hook: Close-up on a knife mincing veal and pork fatback. Slow smooth camera drift, gentle floating movement. Intense music builds (strings, low-pitched drums, and haunting violin) with ambient kitchen sounds (sizzling, utensils clinking).</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 2</h4><video controls src="https://v3b.fal.media/files/b/0a8a3c92/EvMrRPtJ8A4qYJaRD-UaA_IgfLQpqo.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3c92/EvMrRPtJ8A4qYJaRD-UaA_IgfLQpqo.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">4-second build-up: Quick cuts of various spices (parsley, lemon zest, mace, onions, ginger, and cardamom) being sprinkled in. Contemplative pacing, cinematic depth of field. Music intensifies (more instruments, soaring strings) with subtle sizzling sounds.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 3</h4><p style="color:#ff4444">Failed</p><pre style="margin-top:10px;font-size:0.8em">4-second climax: Close-up of the mixture being stuffed into pork casings. Peak intensity mood, dramatic music crescendo (full orchestra). Sausage emerges, and the camera zooms out to reveal perfectly formed Weißwurst. Sharp sizzling sounds.</pre></div><div style="background:#111;border:1px solid #333;padding:15px;margin:10px"><h4 style="color:#fff">Clip 4</h4><video controls src="https://v3b.fal.media/files/b/0a8a3c98/gPwVEyZbPnyKJSwbc8HzF_YEAsM0GQ.mp4"></video><a href="https://v3b.fal.media/files/b/0a8a3c98/gPwVEyZbPnyKJSwbc8HzF_YEAsM0GQ.mp4" target="_blank">Download</a><pre style="margin-top:10px;font-size:0.8em">4-second conclusion: Tray of freshly made Weißwurst sausages glisten in the light. Slow float, peaceful music resolves (strings, gentle piano). Ambient sounds (kitchen chatter, gentle sizzling) fade into the background, leaving a sense of resolution.</pre></div></div></div><div class="section"><h2>Step 0: Source</h2><div class="meta"><div class="meta-item"><div class="label">Type</div><div class="value">Wikipedia</div></div><div class="meta-item"><div class="label">Title</div><div class="value">Weißwurst</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Storyboard</div><div class="value">Surreal (dreamlike, abstract, artistic)</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Slow camera drift (smooth, contemplative)</div></div></div><div class="data-block"><h4>Raw Content:</h4><pre>Weißwurst is a traditional Bavarian sausage made from minced veal and pork fatback. It is usually flavored with parsley, lemon, mace, onions, ginger and cardamom, although there are some variations. Then the mixture is stuffed into pork casings and separated into individual sausages measuring about 10 to 12 centimetres in length and 3–4 cm in diameter.</pre></div></div><div class="section"><h2>Step 1: Summarization</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.31s</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Summarize the following content in 5-6 sentences. Focus on the most visual and dramatic aspects that would translate well to video:\n\nWeißwurst is a traditional Bavarian sausage made from minced veal and pork fatback. It is usually flavored with parsley, lemon, mace, onions, ginger and cardamom, although there are some variations. Then the mixture is stuffed into pork casings and separated into individual sausages measuring about 10 to 12 centimetres in length and 3–4 cm in diameter....</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">LLM Output:</h4><pre>(On-screen: Close-up of freshly minced veal and pork fatback)
+
+Narrator: "In the heart of Bavaria, a traditional sausage is born. Weißwurst, a delicate mix of minced veal and pork fatback, is the starting point."
+
+(On-screen: Quick cuts of various spices being added - parsley, lemon zest, mace, onions, ginger, and cardamom)
+
+Narrator: "A blend of fragrant spices, including parsley, lemon, and cardamom, gives Weißwurst its unique flavor profile."
+
+(On-screen: The mixture being stuffed into pork casings, with the sausage emerging perfectly formed)
+
+Narrator: "The mixture is then carefully stuffed into pork casings, resulting in perfectly proportioned sausages, each about 10-12 centimeters long and 3-4 centimeters in diameter."
+
+(On-screen: A tray of freshly made Weißwurst sausages, glistening in the light)
+
+Narrator: "And so, the Weißwurst is born, a true delight of Bavarian cuisine."</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-8f32a05a-4368-4946-9e8e-91c42d100b0a",
+  "object": "chat.completion",
+  "created": 1768316313,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "(On-screen: Close-up of freshly minced veal and pork fatback)\n\nNarrator: \"In the heart of Bavaria, a traditional sausage is born. Weißwurst, a delicate mix of minced veal and pork fatback, is the starting point.\"\n\n(On-screen: Quick cuts of various spices being added - parsley, lemon zest, mace, onions, ginger, and cardamom)\n\nNarrator: \"A blend of fragrant spices, including parsley, lemon, and cardamom, gives Weißwurst its unique flavor profile.\"\n\n(On-screen: The mixture being stuffed into pork casings, with the sausage emerging perfectly formed)\n\nNarrator: \"The mixture is then carefully stuffed into pork casings, resulting in perfectly proportioned sausages, each about 10-12 centimeters long and 3-4 centimeters in diameter.\"\n\n(On-screen: A tray of freshly made Weißwurst sausages, glistening in the light)\n\nNarrator: \"And so, the Weißwurst is born, a true delight of Bavarian cuisine.\""
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.088775444,
+    "prompt_tokens": 148,
+    "prompt_time": 0.01159621,
+    "completion_tokens": 225,
+    "completion_time": 0.305639392,
+    "total_tokens": 373,
+    "total_time": 0.317235602
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_4387d3edbb",
+  "x_groq": {
+    "id": "req_01kevxv7d4e03bects441md118",
+    "seed": 708704047
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 2: Storyboard</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Style</div><div class="value">Surreal (dreamlike, abstract, artistic)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.86s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Style Instructions:</h4><pre>Create a surreal, dreamlike storyboard with abstract imagery, impossible physics, and artistic expression. Think Salvador Dali meets music videos.</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Based on this summary, create a 4-scene storyboard for FOUR 4-second video clips (16 seconds total). Each scene should be visually striking and build on the previous.\n\nSUMMARY: (On-screen: Close-up of freshly minced veal and pork fatback)
+
+Narrator: "In the heart of Bavaria, a traditional sausage is born. Weißwurst, a delicate mix of minced veal and pork fatback, is the starting point."
+
+(On-screen: Quick cuts of various spices being added - parsley, lemon zest, mace, onions, ginger, and cardamom)
+
+Narrator: "A blend of fragrant spices, including parsley, lemon, and cardamom, gives Weißwurst its unique flavor profile."
+
+(On-screen: The mixture being stuffed into pork casings, with the sausage emerging perfectly formed)
+
+Narrator: "The mixture is then carefully stuffed into pork casings, resulting in perfectly proportioned sausages, each about 10-12 centimeters long and 3-4 centimeters in diameter."
+
+(On-screen: A tray of freshly made Weißwurst sausages, glistening in the light)
+
+Narrator: "And so, the Weißwurst is born, a true delight of Bavarian cuisine."\n\nSTYLE INSTRUCTIONS: Create a surreal, dreamlike storyboard with abstract imagery, impossible physics, and artistic expression. Think Salvador Dali meets music videos.\n\nRespond in this exact JSON format:\n{\n  "scene1": { "description": "...", "mood": "...", "audioDescription": "..." },\n  "scene2": { ... },\n  "scene3": { ... },\n  "scene4": { ... }\n}</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "scene1": {
+    "description": "A close-up shot of a delicate, swirling cloud of veal and pork fatback particles suspended in mid-air, as if defying gravity. The particles morph and change shape like a 3D puzzle, with vibrant colors and soft focus.",
+    "mood": "wonder",
+    "audioDescription": "Soft, ethereal music with a hint of traditional German instrumentation, accompanied by a subtle whisper of the narrator's voice, 'In the heart of Bavaria...'"
+  },
+  "scene2": "Sausage spices appear as wispy brushstrokes of color, swirling and converging in a kaleidoscope dance. Spices burst into blooms of fragrant color and shape, as if the spices are alive and reacting to the mixture.",
+    "mood": "vibrant",
+    "audioDescription": "Music builds in intensity, adding layers of percussion and instrumentation, as the narrator declares, 'A blend of fragrant spices...'"
+  },
+  "scene3": "The mixture is transformed into a liquid, flowing like a river, as sausages begin to take shape in mid-air. The sausages elongate and take form, with impossible perspectives and geometry, as if the very fabric of reality is being warped.",
+    "mood": "dramatic",
+    "audioDescription": "The music reaches a crescendo, with a dramatic swell of strings and timpani, as the narrator proclaims, 'The mixture is then carefully stuffed...' and the sound of stuffing and casings can be heard"
+  },
+  "scene4": "The finished Weißwürste rest on a gleaming, translucent tray, suspended in a sea of light and color. Sausages ripple and shimmer like a mirage, as the camera zooms in on the perfectly formed, 10-12 cm long, 3-4 cm diameter Weißwürste.",
+    "mood": "serene",
+    "audioDescription": "The music subsides to a soft echo, with a hint of a gentle German folk tune, as the narrator concludes, 'And so, the Weißwurst is born...' and the sound of a gentle Bavarian village fade in"
+}</pre></div><h4>Parsed Scenes:</h4><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 1:</strong> Opening hook scene<br><em style="color:#888">Mood: dramatic | Audio: Intense music builds</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 2:</strong> Build-up scene<br><em style="color:#888">Mood: rising tension | Audio: Music intensifies</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 3:</strong> Climax scene<br><em style="color:#888">Mood: peak intensity | Audio: Dramatic crescendo</em></div><div style="background:#111;padding:10px;margin:5px;border-left:2px solid #666"><strong>Scene 4:</strong> Conclusion scene<br><em style="color:#888">Mood: resolution | Audio: Resolving ambient sounds</em></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-c273fe00-aa15-4516-8064-0fdeec70b3b8",
+  "object": "chat.completion",
+  "created": 1768316314,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"scene1\": {\n    \"description\": \"A close-up shot of a delicate, swirling cloud of veal and pork fatback particles suspended in mid-air, as if defying gravity. The particles morph and change shape like a 3D puzzle, with vibrant colors and soft focus.\",\n    \"mood\": \"wonder\",\n    \"audioDescription\": \"Soft, ethereal music with a hint of traditional German instrumentation, accompanied by a subtle whisper of the narrator's voice, 'In the heart of Bavaria...'\"\n  },\n  \"scene2\": \"Sausage spices appear as wispy brushstrokes of color, swirling and converging in a kaleidoscope dance. Spices burst into blooms of fragrant color and shape, as if the spices are alive and reacting to the mixture.\",\n    \"mood\": \"vibrant\",\n    \"audioDescription\": \"Music builds in intensity, adding layers of percussion and instrumentation, as the narrator declares, 'A blend of fragrant spices...'\"\n  },\n  \"scene3\": \"The mixture is transformed into a liquid, flowing like a river, as sausages begin to take shape in mid-air. The sausages elongate and take form, with impossible perspectives and geometry, as if the very fabric of reality is being warped.\",\n    \"mood\": \"dramatic\",\n    \"audioDescription\": \"The music reaches a crescendo, with a dramatic swell of strings and timpani, as the narrator proclaims, 'The mixture is then carefully stuffed...' and the sound of stuffing and casings can be heard\"\n  },\n  \"scene4\": \"The finished Weißwürste rest on a gleaming, translucent tray, suspended in a sea of light and color. Sausages ripple and shimmer like a mirage, as the camera zooms in on the perfectly formed, 10-12 cm long, 3-4 cm diameter Weißwürste.\",\n    \"mood\": \"serene\",\n    \"audioDescription\": \"The music subsides to a soft echo, with a hint of a gentle German folk tune, as the narrator concludes, 'And so, the Weißwurst is born...' and the sound of a gentle Bavarian village fade in\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.107208217,
+    "prompt_tokens": 545,
+    "prompt_time": 0.053135016,
+    "completion_tokens": 467,
+    "completion_time": 0.860082147,
+    "total_tokens": 1012,
+    "total_time": 0.913217163
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kevxv7wjerestkf235dn3vp3",
+    "seed": 311375828
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 3: Video Prompts</h2><div class="meta"><div class="meta-item"><div class="label">Model</div><div class="value">llama-3.1-8b-instant</div></div><div class="meta-item"><div class="label">Camera</div><div class="value">Slow camera drift (smooth, contemplative)</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.0005</div></div><div class="meta-item"><div class="label">Time</div><div class="value">0.48s</div></div></div><div class="data-block config-block"><h4 style="color:#888">Camera Instructions:</h4><pre>slow smooth camera drift, gentle floating movement, contemplative pacing, cinematic depth of field</pre></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input Prompt:</h4><pre>Create 4 text-to-video prompts for LTX-2 AI video model with NATIVE AUDIO.\n\nCAMERA STYLE TO USE: slow smooth camera drift, gentle floating movement, contemplative pacing, cinematic depth of field\n\nScene 1 (Opening Hook): Opening hook scene - dramatic mood. Audio: Intense music builds\n\nScene 2 (Build-up): Build-up scene - rising tension mood. Audio: Music intensifies\n\nScene 3 (Climax): Climax scene - peak intensity mood. Audio: Dramatic crescendo\n\nScene 4 (Conclusion): Conclusion scene - resolution mood. Audio: Resolving ambient sounds\n\nRespond in JSON format with prompt1, prompt2, prompt3, prompt4.</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Raw LLM Output:</h4><pre>{
+  "prompt1": "4-second opening hook: Close-up on a knife mincing veal and pork fatback. Slow smooth camera drift, gentle floating movement. Intense music builds (strings, low-pitched drums, and haunting violin) with ambient kitchen sounds (sizzling, utensils clinking).",
+  "prompt2": "4-second build-up: Quick cuts of various spices (parsley, lemon zest, mace, onions, ginger, and cardamom) being sprinkled in. Contemplative pacing, cinematic depth of field. Music intensifies (more instruments, soaring strings) with subtle sizzling sounds.",
+  "prompt3": "4-second climax: Close-up of the mixture being stuffed into pork casings. Peak intensity mood, dramatic music crescendo (full orchestra). Sausage emerges, and the camera zooms out to reveal perfectly formed Weißwurst. Sharp sizzling sounds.",
+  "prompt4": "4-second conclusion: Tray of freshly made Weißwurst sausages glisten in the light. Slow float, peaceful music resolves (strings, gentle piano). Ambient sounds (kitchen chatter, gentle sizzling) fade into the background, leaving a sense of resolution."
+}</pre></div><h4>Parsed Prompts:</h4><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 1:</strong><pre>4-second opening hook: Close-up on a knife mincing veal and pork fatback. Slow smooth camera drift, gentle floating movement. Intense music builds (strings, low-pitched drums, and haunting violin) with ambient kitchen sounds (sizzling, utensils clinking).</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 2:</strong><pre>4-second build-up: Quick cuts of various spices (parsley, lemon zest, mace, onions, ginger, and cardamom) being sprinkled in. Contemplative pacing, cinematic depth of field. Music intensifies (more instruments, soaring strings) with subtle sizzling sounds.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 3:</strong><pre>4-second climax: Close-up of the mixture being stuffed into pork casings. Peak intensity mood, dramatic music crescendo (full orchestra). Sausage emerges, and the camera zooms out to reveal perfectly formed Weißwurst. Sharp sizzling sounds.</pre></div><div style="background:#111;padding:10px;margin:5px;border-left:3px solid #888"><strong>Prompt 4:</strong><pre>4-second conclusion: Tray of freshly made Weißwurst sausages glisten in the light. Slow float, peaceful music resolves (strings, gentle piano). Ambient sounds (kitchen chatter, gentle sizzling) fade into the background, leaving a sense of resolution.</pre></div><div class="data-block config-block"><h4 style="color:#888">Full API Response:</h4><pre>{
+  "id": "chatcmpl-f3800b11-226a-4e27-b2bc-984fff35b93b",
+  "object": "chat.completion",
+  "created": 1768316315,
+  "model": "llama-3.1-8b-instant",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"prompt1\": \"4-second opening hook: Close-up on a knife mincing veal and pork fatback. Slow smooth camera drift, gentle floating movement. Intense music builds (strings, low-pitched drums, and haunting violin) with ambient kitchen sounds (sizzling, utensils clinking).\",\n  \"prompt2\": \"4-second build-up: Quick cuts of various spices (parsley, lemon zest, mace, onions, ginger, and cardamom) being sprinkled in. Contemplative pacing, cinematic depth of field. Music intensifies (more instruments, soaring strings) with subtle sizzling sounds.\",\n  \"prompt3\": \"4-second climax: Close-up of the mixture being stuffed into pork casings. Peak intensity mood, dramatic music crescendo (full orchestra). Sausage emerges, and the camera zooms out to reveal perfectly formed Weißwurst. Sharp sizzling sounds.\",\n  \"prompt4\": \"4-second conclusion: Tray of freshly made Weißwurst sausages glisten in the light. Slow float, peaceful music resolves (strings, gentle piano). Ambient sounds (kitchen chatter, gentle sizzling) fade into the background, leaving a sense of resolution.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.108633225,
+    "prompt_tokens": 605,
+    "prompt_time": 0.054958473,
+    "completion_tokens": 253,
+    "completion_time": 0.480831665,
+    "total_tokens": 858,
+    "total_time": 0.535790138
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_ff2b098aaf",
+  "x_groq": {
+    "id": "req_01kevxv8z0e09sdvvr1f5k9mm4",
+    "seed": 519262987
+  },
+  "service_tier": "on_demand"
+}</pre></div></div><div class="section"><h2>Step 4: Video Generation</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai</div></div><div class="meta-item"><div class="label">Model</div><div class="value">LTX-2 19B Distilled</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.20</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~100s (4 clips)</div></div></div><div class="data-block config-block"><h4 style="color:#888">API Config:</h4><pre>{
+  "resolution": "480x848 (9:16)",
+  "num_frames": 101,
+  "fps": 25,
+  "duration": "4 seconds",
+  "generateAudio": true,
+  "negativePrompt": "low resolution, error, worst quality, low quality, defects, blurry, distorted"
+}</pre></div></div><div class="section"><h2>Step 5: Merge</h2><div class="meta"><div class="meta-item"><div class="label">Service</div><div class="value">fal.ai FFmpeg API</div></div><div class="meta-item"><div class="label">Duration</div><div class="value">16 seconds</div></div><div class="meta-item"><div class="label">Cost</div><div class="value">~$0.02</div></div><div class="meta-item"><div class="label">Time</div><div class="value">~8s</div></div><div class="meta-item"><div class="label">Status</div><div class="value">Success</div></div></div><div class="data-block input-block"><h4 style="color:#ffaa00">Input URLs:</h4><pre>Clip 1: https://v3b.fal.media/files/b/0a8a3c8f/1IjC1r8E23Kx79pTq3I14_CQw1YYYq.mp4\nClip 2: https://v3b.fal.media/files/b/0a8a3c92/EvMrRPtJ8A4qYJaRD-UaA_IgfLQpqo.mp4\nClip 3: https://v3b.fal.media/files/b/0a8a3c98/gPwVEyZbPnyKJSwbc8HzF_YEAsM0GQ.mp4\n</pre></div><div class="data-block output-block"><h4 style="color:#4CAF50">Output URL:</h4><pre>https://v3b.fal.media/files/b/0a8a3c9c/ujGiJVY_BJP1mKWY8y7sw_merged_video.mp4</pre></div></div><div class="section"><h2>Resource Usage</h2><div class="breakdown-container"><div class="breakdown-box"><h3 style="color:#ffaa00">Cost Breakdown</h3><div class="breakdown-row"><span>Jina Reader</span><span>Free</span></div><div class="breakdown-row"><span>Groq Summary</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>~$0.0005</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>~$0.0005</span></div><div class="breakdown-row"><span>fal.ai LTX-2</span><span>~$0.20</span></div><div class="breakdown-row"><span>fal.ai Merge</span><span>~$0.02</span></div><div class="breakdown-row"><span>Total</span><span>~$0.24</span></div></div><div class="breakdown-box"><h3 style="color:#4CAF50">Time Breakdown</h3><div class="breakdown-row"><span>Groq Summary</span><span>0.31s</span></div><div class="breakdown-row"><span>Groq Storyboard</span><span>0.86s</span></div><div class="breakdown-row"><span>Groq Prompts</span><span>0.48s</span></div><div class="breakdown-row"><span>Video Generation</span><span>~100s (4 clips)</span></div><div class="breakdown-row"><span>Video Merge</span><span>~8s</span></div><div class="breakdown-row"><span>Total</span><span>~110s</span></div></div></div></div><p class="timestamp">Generated: 2026-01-13T15:00:44.537Z | Daisychain v5.2</p></div></body></html>
